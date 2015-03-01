@@ -1,0 +1,12 @@
+{
+  "name"         : "node-gold-scrape",
+  "version"      : "0.0.1",
+  "description"  : "Scrape le gold.",
+  "main"         : "server.js",
+  "author"       : "A.MALBERT",
+  "dependencies" : {
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest"
+  }
+}
