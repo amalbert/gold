@@ -1,6 +1,8 @@
 var express = require('express');
 var request = require('request');
 var cheerio = require('cheerio');
+var path 	= require('path');
+var bodyParser = require('body-parser');
 var app     = express();
 
 var items = [
@@ -9,7 +11,7 @@ var items = [
 		stores: [
 			{
 				url:'http://www.achat-or-et-argent.fr/or/pieces-d-or-d-investissement/12/krugerrand',
-				name:'achat-or-et-argent.fr'
+				name:'achat-or-et-argent.fr',
 			},
 			{
 				url:'http://www.acheter-or-argent.fr/afrique-du-sud-1-once-or-krugerrand-2015.html',
@@ -75,9 +77,11 @@ setInterval(scrapeAll, 600000); //10 min
 	}
 		
 
+app.use(bodyParser.json());
 
+app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/scrape', function(req, res){
+/*app.get('/scrape', function(req, res){
 	var result = ''
 	for (var i = 0; i < items.length; i++) {
 		var piece = items[i];
@@ -90,8 +94,10 @@ app.get('/scrape', function(req, res){
 	res.send(result);
 
 
-});
+});*/
+
+var routes = require('./server/routes').routes;
+routes.configure(app);
 
 app.listen('8081')
 console.log('Magic happens on port 8081');
-exports = module.exports = app;

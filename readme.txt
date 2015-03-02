@@ -1,0 +1,1 @@
+pour lancer le serveur mongo > mongod --dbpath C:\dev\gold\db
