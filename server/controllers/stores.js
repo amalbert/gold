@@ -2,6 +2,16 @@
 	var Store = require('../model/store');
 	var mongodb = require('mongodb');
 	var q = require("q");
+
+	function list() {
+		var deferred = q.defer();
+		Store.find(function(err, stores) {
+			if (err) deferred.reject(err);
+			else deferred.resolve(stores);
+		});
+		return deferred.promise;
+	}
+
 	
 	var api = {};
 	api.save = function(req, res) {
