@@ -1,1 +1,20 @@
-Liste des pièces {{coinName}}
+
+ <div class="row">
+  <div class="col-md-12">
+    Liste des pièces
+  </div>
+  <div class="col-md-6" ng-repeat="coin in coins">
+    {{coin.name}}<br/>
+    <div ng-repeat="price in coin.prices">
+	    {{price.store}}<br/>
+	    <div ng-repeat="year in price.years">
+		    {{year.year}}<br/>
+		    {{year.price}}
+		</div>
+	</div>
+  </div>
+
+  <div class="col-md-6" ng-repeat="store in stores">
+    {{store.name}}<br/>
+  </div>
+</div>

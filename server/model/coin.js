@@ -4,7 +4,16 @@ var mongoose = require('mongoose')
 var coinSchema = new Schema({
     name:	String,
     enabled:Boolean,
-    stores:[{ type: Schema.Types.ObjectId, ref: 'Store' }]
+    prices:[ {
+	    	store: String,//{ type: Schema.Types.ObjectId, ref: 'Store' }, 
+	    	years: [
+	    		{
+	    			price: Number, 
+	    			year: Number, 
+	    			uri: String
+	    		}]
+    	}
+    ]
 });
 
 module.exports = mongoose.model('Coin', coinSchema);

@@ -1,7 +1,6 @@
 (function() {
 	var Store = require('../model/store');
-	var mongodb = require('mongodb');
-	var q = require("q");
+	var storeService = require('../services/stores');
 
 	function list() {
 		var deferred = q.defer();
@@ -24,7 +23,7 @@
 	}
 
 	api.list = function(req, res) {
-		list().then(function (stores) {
+		storeService.list().then(function (stores) {
 			console.log(stores);
 			res.setHeader('Content-Type', 'text/json');
 			res.send(stores);

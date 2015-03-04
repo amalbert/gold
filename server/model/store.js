@@ -5,8 +5,7 @@ var storeSchema = new Schema({
     name:			String,
     url:			String,
     priceSelector:	String,
-    enabled:		Boolean,
-    coins: 			[{ type: Schema.Types.ObjectId, ref: 'Coin' }]
+    enabled:		Boolean
 });
 
 module.exports = mongoose.model('Store', storeSchema);

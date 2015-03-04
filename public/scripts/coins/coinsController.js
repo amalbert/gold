@@ -2,12 +2,18 @@
 
 var controllers = angular.module('Controllers');
 
-controllers.controller('CoinsController', [ '$scope', '$log', '$timeout', 'CoinsService',
-    function($scope, $log, $timeout, travelService, HotelsService, extraService) {
+controllers.controller('CoinsController', [ '$scope', '$log', '$timeout', 'CoinsService', 'StoresService',
+    function($scope, $log, $timeout, CoinsService, StoresService) {
         
         $scope.list = function() {
 
         };
-        $scope.coinName = 'Krugerrand';
+        CoinsService.list(function(data) {
+        	$scope.coins = data;
+        }, function(error) {});
+
+        StoresService.list(function(data) {
+        	$scope.stores = data;
+        }, function(error) {});
 
  } ]);

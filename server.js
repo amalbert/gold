@@ -1,11 +1,15 @@
 var express = require('express');
-var request = require('request');
-var cheerio = require('cheerio');
+
+
 var path 	= require('path');
 var bodyParser = require('body-parser');
 var app     = express();
+var mongoose = require('mongoose');
+var log = require('./server/logger').logger;
 
-var items = [
+var scrapService = require('./server/services/scrap');
+
+/*var items = [
 	{
 		name:'Krugerrand',
 		stores: [
@@ -28,21 +32,16 @@ var items = [
 			}
 		]
 	}
-];
+];*/
 
 function scrapeAll() {
-	for (var i = 0; i < items.length; i++) {
-		var piece = items[i];
-		for (var j = 0; j < piece.stores.length; j++) {
-			var store = piece.stores[j];
-			scrapPage(store, piece);
-		}
-	}
+	scrapService.scrap();
 }
+
 scrapeAll();
 setInterval(scrapeAll, 600000); //10 min
 
-
+/*
 	function getAchatOrEtArgentPrice($, store) {
 		$('#tdPu0-9').filter(function(){
 			var data = $(this);
@@ -59,27 +58,22 @@ setInterval(scrapeAll, 600000); //10 min
 		});
 	}
 	
-	function scrapPage(store, item) {
-		request(store.url, function(error, response, html){
-			if (!error){
-				var $ = cheerio.load(html);
-				switch (store.name) {
-					case 'achat-or-et-argent.fr': 
-						getAchatOrEtArgentPrice($, store)
-						break;
-					case 'acheter-or-argent.fr':
-						getAcheterOrArgentPrice($, store)
-						break;
-				}
-				console.log(store);
-			}
-		});
-	}
-		
+	
+	*/	
 
 app.use(bodyParser.json());
-
 app.use(express.static(path.join(__dirname, 'public')));
+
+var d = require('domain').create();
+
+	d.on('error', function(er) {
+		log.error('Mongo DB connection lost, trying to reconnect');
+	});
+
+	d.run(function() {
+		mongoose.connect('mongodb://localhost/gold');
+		log.info('Trying to connect to Mongo DB');
+	});
 
 /*app.get('/scrape', function(req, res){
 	var result = ''
