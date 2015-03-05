@@ -12,11 +12,31 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        redirectTo: '/coins'
+        redirectTo: '/coins/list'
       })
-      .when('/coins', {
+      .when('/coins/list', {
         templateUrl: 'views/coins/list.html',
         controller: 'CoinsController'
+      })
+      .when('/coins/new', {
+        templateUrl: 'views/coins/detail.html',
+        controller: 'CoinsController'
+      })
+      .when('/coins/detail/:id', {
+        templateUrl: 'views/coins/detail.html',
+        controller: 'CoinsController'
+      })
+      .when('/stores/list', {
+        templateUrl: 'views/stores/list.html',
+        controller: 'StoresController'
+      })
+      .when('/stores/new', {
+        templateUrl: 'views/stores/detail.html',
+        controller: 'StoresController'
+      })
+      .when('/stores/detail/:id', {
+        templateUrl: 'views/stores/detail.html',
+        controller: 'StoresController'
       })
       .otherwise({
         redirectTo: '/'

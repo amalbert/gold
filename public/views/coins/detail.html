@@ -1,0 +1,48 @@
+<form class="form-inline">
+	<div class="row">
+		<div class="col-md-4 form-group">
+			<label>Nom du produit : </label> <input type="text" ng-model="coin.name" class="form-control" size="12" />
+		</div>
+		<div class="col-md-3 form-group">
+			<label>Poids : </label> <input type="text" ng-model="coin.weight" class="form-control" size="8"/>
+		</div>
+		<div class="col-md-3 form-group">
+			<label>Pays : </label> <input type="text" ng-model="coin.country" class="form-control" size="10" />
+		</div>
+		<div class="col-md-2 form-group">
+			<label>Active</label> <input type="checkbox" ng-model="coin.enabled" />
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4 form-group">
+			<label>Metal : </label> <input type="text" ng-model="coin.metal" class="form-control" size="6" />
+		</div>
+		
+	</div>
+	<div class="row">
+		
+	</div>
+	<div ng-repeat="price in coin.prices" class="row">
+		<div class="col-md-12 form-group">
+			<label>Magasin : </label> 
+			<select ng-model="price.store" class="form-control">
+				<option ng-repeat="store in stores" ng-if="store.enabled" value="{{store.name}}" ng-selected="store.name == price.store">{{store.name}}</option>
+			</select>
+		</div>
+		<div class="col-md-12 form-group">
+			<div ng-repeat="year in price.years">
+				<label>Année : </label> <input type="text" ng-model="year.year" class="form-control" /> ({{year.price}} €)<br/>
+				<label>URI : </label> http://{{price.store}}/<input type="text" ng-model="year.uri" class="form-control" size="50" />
+			</div>
+		</div>
+		<div class="col-md-12">
+			<a ng-click="addYear(price)">Ajouter une année</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<a ng-click="addStore(coin)">Ajouter un magasin</a>
+		</div>
+	</div>
+	<input type="submit" ng-click="save(coin)"/>
+</form>

@@ -14,23 +14,38 @@
 	
 	var api = {};
 	api.save = function(req, res) {
-		var Store = new Store(req.body);
-		Store.save(function (err) {
+		var store = new Store(req.body);
+		/*store.save(function (err) {
 			if (err)
 				throw err;
-			res.send(Store);
+			res.send(store);
+		});*/
+		storeService.save(store).then(function(storeUpdated) {
+			res.send(storeUpdated);
+		}, function(err) {
+			console.log(error);
+			deferred.reject(err);
+			res.send(err);
 		});
 	}
 
 	api.list = function(req, res) {
 		storeService.list().then(function (stores) {
-			console.log(stores);
 			res.setHeader('Content-Type', 'text/json');
 			res.send(stores);
 		}, function (error) {
 			console.log(error);
 		});
 	}
+
+	api.find = function(req, res) {
+		storeService.findById(req.params.id).then(function (store) {
+			res.setHeader('Content-Type', 'text/json');
+			res.send(store);
+		}, function (error) {
+			console.log(error);
+		});
+	};
 	
     module.exports = api;
 

@@ -5,3 +5,659 @@
 [2015-03-04 09:50:33.390] [INFO] MongoTest - Trying to connect to Mongo DB
 [2015-03-04 10:29:14.543] [INFO] MongoTest - Trying to connect to Mongo DB
 [2015-03-04 10:48:18.469] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:17:05.534] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:18:41.107] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:19:11.960] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:21:04.382] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:22:27.797] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:23:01.454] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:23:23.522] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:23:49.481] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:24:38.109] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:25:16.957] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:25:44.394] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:25:58.212] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:26:07.672] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:27:36.266] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:27:47.705] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:28:30.132] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:28:48.816] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:28:50.425] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:28:54.045] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:29:57.388] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:34:24.408] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:36:03.613] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:36:32.805] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:36:52.615] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:36:57.195] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:37:14.123] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:37:40.221] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:39:31.132] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:41:39.831] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:41:44.221] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:43:29.218] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:43:32.994] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:48:34.908] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:50:05.830] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:53:40.338] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:54:55.186] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 13:55:31.104] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:05:27.383] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:06:56.779] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:07:09.942] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:09:00.930] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:10:06.991] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:12:00.601] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:18:14.219] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:20:28.493] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:21:34.542] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:23:30.391] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:26:09.902] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:26:55.524] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:27:39.415] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:29:24.199] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:30:38.421] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:31:31.529] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:32:46.228] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:33:50.321] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:34:35.333] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:35:10.367] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:35:49.723] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:37:01.937] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:37:37.185] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:38:00.306] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:38:12.629] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:41:24.654] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:42:49.495] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:48:54.032] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:49:21.926] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:51:18.127] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:51:28.455] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:53:48.771] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:57:01.730] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:57:22.213] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:57:59.132] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 14:58:51.437] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:02:38.046] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:03:13.549] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:05:52.658] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:21:23.113] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:21:46.060] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:22:17.623] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:23:39.044] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:24:04.067] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:24:58.048] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:26:34.640] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:27:12.740] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:28:07.071] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:28:48.613] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:29:34.989] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:29:55.181] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:30:53.619] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:31:38.716] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:32:04.582] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:32:25.872] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:32:43.805] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:33:33.716] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:37:11.760] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:37:39.868] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:38:34.032] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:38:42.391] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:39:14.207] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:45:53.219] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 15:45:53.266] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:45:54.132] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 15:48:06.405] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 15:48:06.452] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:48:07.232] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 15:48:07.247] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 15:52:10.050] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 15:52:10.097] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 15:52:10.740] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 15:52:10.742] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 16:02:10.066] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 16:02:10.441] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 16:02:10.697] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 16:12:10.102] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 16:12:10.523] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 16:12:10.728] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 16:22:10.117] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 16:22:10.700] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 16:22:10.716] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 16:32:10.139] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 16:32:10.742] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 16:32:10.773] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 16:42:10.149] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 16:42:10.758] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 16:42:10.774] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 16:46:28.500] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 16:46:28.547] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 16:46:28.937] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 16:46:29.159] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 16:55:55.884] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 16:55:55.915] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 16:55:56.540] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 16:55:56.556] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 16:56:18.431] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 16:56:18.462] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 16:56:19.090] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 16:56:19.105] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 16:57:06.397] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 16:57:06.429] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 16:57:06.881] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 16:57:07.038] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 16:57:52.585] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 16:57:52.616] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 16:57:53.034] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 16:57:53.237] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 16:58:42.142] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 16:58:42.173] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 16:58:42.614] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 16:58:42.804] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:06:20.367] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:06:20.398] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:06:20.898] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:06:20.976] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:06:58.631] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:06:58.662] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:06:59.193] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:06:59.286] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:09:32.683] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:09:32.714] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:09:33.291] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:09:33.322] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:11:16.506] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:11:16.539] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:11:17.182] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:11:17.197] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:14:53.168] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:14:53.215] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:14:53.685] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:14:53.706] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:16:07.387] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:16:07.418] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:16:07.997] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:16:08.060] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:17:20.409] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:17:20.440] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:17:21.097] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:17:21.113] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:17:40.662] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:17:40.695] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:17:41.344] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:17:41.375] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:18:11.858] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:18:11.898] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:18:12.569] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:18:12.590] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:19:36.844] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:19:36.875] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:19:37.418] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:19:37.496] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:21:09.754] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:21:09.785] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:21:10.206] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:21:10.456] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:24:36.203] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:24:36.250] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:24:36.687] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:24:36.907] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:28:35.001] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:28:35.047] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:28:35.691] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:28:35.707] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:28:58.052] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:28:58.083] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:28:58.692] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:28:58.739] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:31:04.271] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:31:04.302] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:31:04.755] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:31:04.770] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:31:38.514] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:31:38.545] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:31:39.030] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:31:39.203] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:31:44.113] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:31:44.145] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:31:44.568] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:31:44.630] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:32:07.512] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:32:07.545] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:32:08.345] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:32:08.360] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:33:53.200] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:33:53.231] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:33:53.685] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:33:53.888] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:43:53.209] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:43:53.694] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:43:53.882] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:50:24.397] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 17:50:24.428] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 17:50:25.243] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 17:50:25.259] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 17:52:53.748] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:52:55.764] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:52:57.797] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:52:59.840] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:01.888] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:03.918] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:05.947] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:07.989] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:09.995] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:12.011] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:14.045] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:16.065] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:18.117] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:20.134] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:22.146] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:24.172] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:26.217] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:28.260] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:30.290] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:32.319] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:34.361] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:36.393] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:38.420] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:40.435] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:42.446] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:44.481] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:46.505] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:48.523] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:50.547] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:52.574] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:54.588] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:56.609] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:53:58.626] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:00.656] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:02.680] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:04.719] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:06.741] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:08.760] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:10.798] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:12.832] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:14.858] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:16.890] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:18.917] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:20.942] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:22.975] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:24.997] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:27.036] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:29.057] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:31.073] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:33.095] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:35.130] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:37.152] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:39.176] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:41.196] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:43.244] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:45.260] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:47.297] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:49.325] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:51.360] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:53.372] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 17:54:53.372] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 18:03:24.443] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:03:24.474] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:03:24.991] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 18:03:25.071] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 18:09:54.195] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:09:54.226] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:10:38.534] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:10:38.566] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:10:39.168] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 18:10:39.231] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 18:12:30.655] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:12:30.705] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:12:47.526] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:12:47.558] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:13:33.827] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:13:33.858] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:13:34.343] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 18:13:34.546] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 18:14:23.035] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:14:23.066] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:14:23.483] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:14:23.498] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:21:58.775] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:21:58.808] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:21:59.387] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:21:59.403] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:22:46.421] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:22:46.452] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:22:47.065] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 18:22:47.080] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 18:22:47.080] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 18:22:47.080] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 18:23:07.497] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 18:23:46.578] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:23:46.609] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:23:47.046] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:23:47.171] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:23:47.187] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:27:21.624] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:27:21.655] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:27:22.094] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:27:22.328] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:28:51.461] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:28:51.508] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:28:52.119] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:28:52.150] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:29:09.049] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:29:09.080] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:29:09.522] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 18:29:09.538] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 18:32:34.914] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:32:34.960] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:32:35.786] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:32:35.802] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:33:27.621] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:33:27.653] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:33:27.699] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 18:33:28.312] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:33:28.327] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:33:39.207] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 18:34:01.721] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:34:01.754] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:34:01.953] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 18:34:02.218] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:34:02.234] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:34:16.923] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:34:16.955] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:34:17.391] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:34:17.407] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:34:23.739] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 18:36:24.013] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 18:42:12.341] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:42:12.372] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:42:13.014] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:42:13.029] [INFO] MongoTest - updating coin undefined
+[2015-03-04 18:43:37.218] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:43:37.249] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:43:37.781] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 18:43:37.796] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 18:43:37.828] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 18:43:37.828] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 18:43:57.121] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:43:57.152] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-04 18:43:57.762] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 18:43:57.778] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 18:43:57.809] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 18:43:57.825] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 18:53:57.135] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 18:53:57.681] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 18:53:57.759] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 18:53:57.790] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 18:53:57.852] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 19:03:57.149] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 19:03:57.588] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 19:03:57.652] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 19:03:57.699] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 19:03:57.699] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 19:13:57.167] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 19:13:57.573] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 19:13:57.620] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 19:13:57.822] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 19:13:57.854] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 19:45:11.515] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 19:45:12.205] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 19:45:12.205] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 19:45:12.205] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 19:45:12.205] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 19:45:12.205] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 19:55:11.516] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 19:55:12.139] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 19:55:12.226] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 19:55:12.298] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 19:55:12.311] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 20:05:11.519] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 20:05:12.031] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 20:05:12.059] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 20:05:12.388] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 20:05:12.419] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 20:15:11.533] [INFO] MongoTest - starting to scrap sites
+[2015-03-04 20:15:12.183] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-04 20:15:12.230] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-04 20:15:12.245] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-04 20:15:12.292] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-05 07:58:44.515] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 07:58:44.658] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-05 07:58:45.136] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-05 07:58:45.156] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-05 07:58:45.162] [ERROR] MongoTest - Mongo DB connection lost, trying to reconnect
+[2015-03-05 08:08:44.612] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 08:14:42.987] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 08:14:43.143] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 08:14:43.782] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 08:14:43.798] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 08:16:15.780] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 08:16:15.812] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 08:16:16.455] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 08:16:16.471] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 08:16:40.016] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 08:16:40.048] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 08:16:40.484] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 08:16:40.500] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 08:16:51.534] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 08:16:51.566] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 08:16:52.050] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 08:16:52.081] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 08:17:11.926] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 08:17:11.957] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 08:17:12.596] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 08:17:12.596] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 08:17:48.795] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 08:17:48.826] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 08:17:49.454] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 08:17:49.454] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 08:18:21.696] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 08:18:21.743] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 08:18:22.181] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 08:18:22.196] [INFO] MongoTest - updating coin Krugerrand2
+[2015-03-05 08:20:18.736] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 08:20:18.767] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 08:20:19.455] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 08:20:19.470] [INFO] MongoTest - updating coin Krugerrand2
+[2015-03-05 08:21:56.998] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 08:21:57.030] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 08:21:57.467] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 08:21:57.577] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 08:22:51.551] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 08:22:51.582] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 08:22:52.412] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 08:22:52.774] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 08:23:27.426] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 08:23:27.458] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 08:23:28.098] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 08:23:28.114] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 08:23:45.414] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 08:23:45.431] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 08:23:45.887] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 08:23:46.077] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 08:33:45.418] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 08:33:46.007] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 08:33:46.023] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 08:35:07.594] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 08:35:07.625] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 08:35:08.434] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 08:35:08.434] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 08:35:08.450] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 08:43:37.141] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 08:43:37.172] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 08:43:37.736] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 08:43:37.751] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 08:43:37.814] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 08:44:05.756] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 08:44:05.788] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 08:44:06.256] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 08:44:06.271] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 08:44:06.427] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 08:44:11.814] [INFO] MongoTest - updating coin Nugget2
+[2015-03-05 08:44:21.620] [INFO] MongoTest - updating coin Nugget2
+[2015-03-05 08:44:25.013] [INFO] MongoTest - updating coin Nugget2
+[2015-03-05 08:44:35.062] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 08:45:40.635] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 08:52:42.715] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 08:53:02.566] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 08:54:05.765] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 08:54:06.205] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 08:54:06.284] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 08:54:06.377] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 08:54:06.377] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 09:04:05.798] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 09:04:06.235] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 09:04:06.250] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 09:04:06.516] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 09:04:06.861] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 09:14:05.828] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 09:14:06.234] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 09:14:06.249] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 09:14:06.405] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 09:14:06.436] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 09:24:05.844] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 09:24:06.281] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 09:24:06.297] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 09:24:06.312] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 09:24:06.609] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 09:34:05.869] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 09:34:06.308] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 09:34:06.433] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 09:34:06.604] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 09:34:06.636] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 09:44:05.888] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 09:44:06.436] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 09:44:06.452] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 09:44:06.452] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 09:44:07.265] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 09:54:05.918] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 09:54:06.292] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 09:54:06.308] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 09:54:06.323] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 09:54:06.543] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 10:00:40.883] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 10:00:40.930] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 10:00:41.527] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 10:00:41.527] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 10:00:41.558] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 10:00:41.558] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 10:10:40.914] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 10:10:41.675] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 10:10:41.690] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 10:10:41.706] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 10:10:41.924] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 10:14:19.760] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 10:15:54.736] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 10:17:20.077] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 10:20:40.936] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 10:20:41.349] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 10:20:41.552] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 10:20:41.552] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 10:20:41.676] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 10:27:43.688] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 10:30:40.968] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 10:30:41.358] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 10:30:41.404] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 10:30:41.420] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 10:30:41.654] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 10:40:40.985] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 10:40:41.439] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 10:40:41.595] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 10:40:41.628] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 10:40:41.752] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 10:47:42.767] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 10:47:55.118] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 10:50:41.006] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 10:50:41.507] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 10:50:42.094] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 10:50:42.109] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 10:50:42.156] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 10:53:07.041] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 10:53:07.088] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 10:53:07.637] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 10:53:07.918] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 10:53:07.965] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 10:53:08.183] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 10:57:30.787] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 10:57:30.819] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 10:57:31.350] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 10:57:31.365] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 10:57:31.663] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 10:57:31.850] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 10:57:47.996] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 10:59:33.997] [INFO] MongoTest - starting to scrap sites
+[2015-03-05 10:59:34.029] [INFO] MongoTest - Trying to connect to Mongo DB
+[2015-03-05 10:59:34.530] [INFO] MongoTest - updating coin Maple Leaf
+[2015-03-05 10:59:34.545] [INFO] MongoTest - updating coin American Eagle 1 oz
+[2015-03-05 10:59:34.545] [INFO] MongoTest - updating coin Nugget
+[2015-03-05 10:59:44.079] [ERROR] MongoTest - afrique-du-sud-1-once-or-krugerrand-20152.html doesn't seem to be a valid URL
+[2015-03-05 10:59:44.079] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 10:59:57.292] [INFO] MongoTest - updating coin Krugerrand
+[2015-03-05 11:01:47.222] [INFO] Gold - starting to scrap sites
+[2015-03-05 11:01:47.253] [INFO] Gold - Trying to connect to Mongo DB
+[2015-03-05 11:01:47.768] [INFO] Gold - updating coin Nugget
+[2015-03-05 11:01:47.908] [INFO] Gold - updating coin American Eagle 1 oz
+[2015-03-05 11:01:47.955] [INFO] Gold - updating coin Krugerrand
+[2015-03-05 11:01:48.095] [INFO] Gold - updating coin Maple Leaf
+[2015-03-05 11:01:57.831] [WARN] Gold - acheter-or-argent.fr has an empty URL
+[2015-03-05 11:01:59.016] [INFO] Gold - updating coin Krugerrand
+[2015-03-05 11:02:07.040] [INFO] Gold - updating coin Krugerrand
+[2015-03-05 11:11:47.243] [INFO] Gold - starting to scrap sites
+[2015-03-05 11:11:47.727] [INFO] Gold - updating coin Nugget
+[2015-03-05 11:11:47.883] [INFO] Gold - updating coin American Eagle 1 oz
+[2015-03-05 11:11:47.914] [INFO] Gold - updating coin Krugerrand
+[2015-03-05 11:11:48.210] [INFO] Gold - updating coin Maple Leaf
+[2015-03-05 11:14:39.445] [INFO] Gold - starting to scrap sites
+[2015-03-05 11:14:39.476] [INFO] Gold - Trying to connect to Mongo DB
+[2015-03-05 11:14:39.928] [INFO] Gold - updating coin American Eagle 1 oz
+[2015-03-05 11:14:39.928] [INFO] Gold - updating coin Nugget
+[2015-03-05 11:14:40.100] [INFO] Gold - updating coin Krugerrand
+[2015-03-05 11:14:40.209] [INFO] Gold - updating coin Maple Leaf
+[2015-03-05 11:17:28.093] [INFO] Gold - starting to scrap sites
+[2015-03-05 11:17:28.124] [INFO] Gold - Trying to connect to Mongo DB
+[2015-03-05 11:17:28.827] [INFO] Gold - updating coin American Eagle 1 oz
+[2015-03-05 11:17:28.827] [INFO] Gold - updating coin Nugget
+[2015-03-05 11:17:28.843] [INFO] Gold - updating coin Krugerrand
+[2015-03-05 11:17:29.219] [INFO] Gold - updating coin Maple Leaf
+[2015-03-05 11:19:44.533] [INFO] Gold - starting to scrap sites
+[2015-03-05 11:19:44.564] [INFO] Gold - Trying to connect to Mongo DB
+[2015-03-05 11:19:45.001] [INFO] Gold - updating coin Nugget
+[2015-03-05 11:19:45.032] [INFO] Gold - updating coin Krugerrand
+[2015-03-05 11:19:45.032] [INFO] Gold - updating coin American Eagle 1 oz
+[2015-03-05 11:19:45.297] [INFO] Gold - updating coin Maple Leaf
+[2015-03-05 11:25:15.896] [INFO] Gold - starting to scrap sites
+[2015-03-05 11:25:15.927] [INFO] Gold - Trying to connect to Mongo DB
+[2015-03-05 11:25:16.364] [INFO] Gold - updating coin Nugget
+[2015-03-05 11:25:16.489] [INFO] Gold - updating coin Krugerrand
+[2015-03-05 11:25:16.489] [INFO] Gold - updating coin American Eagle 1 oz
+[2015-03-05 11:25:16.677] [INFO] Gold - updating coin Maple Leaf
+[2015-03-05 11:27:58.051] [INFO] Gold - starting to scrap sites
+[2015-03-05 11:27:58.082] [INFO] Gold - Trying to connect to Mongo DB
+[2015-03-05 11:27:58.585] [INFO] Gold - updating coin American Eagle 1 oz
+[2015-03-05 11:27:58.585] [INFO] Gold - updating coin Nugget
+[2015-03-05 11:27:58.601] [INFO] Gold - updating coin Krugerrand
+[2015-03-05 11:27:58.882] [INFO] Gold - updating coin Maple Leaf
+[2015-03-05 11:28:34.975] [INFO] Gold - starting to scrap sites
+[2015-03-05 11:28:35.007] [INFO] Gold - Trying to connect to Mongo DB
+[2015-03-05 11:28:35.663] [INFO] Gold - updating coin Nugget
+[2015-03-05 11:28:35.678] [INFO] Gold - updating coin Krugerrand
+[2015-03-05 11:28:35.694] [INFO] Gold - updating coin American Eagle 1 oz
+[2015-03-05 11:28:35.975] [INFO] Gold - updating coin Maple Leaf
+[2015-03-05 11:33:30.924] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-05 11:33:45.022] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-05 11:35:45.344] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-05 11:36:11.276] [INFO] Gold - starting to scrap sites
+[2015-03-05 11:36:11.307] [INFO] Gold - Trying to connect to Mongo DB
+[2015-03-05 11:36:11.760] [INFO] Gold - updating coin Nugget
+[2015-03-05 11:36:11.916] [INFO] Gold - updating coin Krugerrand
+[2015-03-05 11:36:11.947] [INFO] Gold - updating coin American Eagle 1 oz
+[2015-03-05 11:36:12.134] [INFO] Gold - updating coin Maple Leaf
+[2015-03-05 11:36:26.732] [INFO] Gold - starting to scrap sites
+[2015-03-05 11:36:26.763] [INFO] Gold - Trying to connect to Mongo DB
+[2015-03-05 11:36:27.247] [INFO] Gold - updating coin Nugget
+[2015-03-05 11:36:27.278] [INFO] Gold - updating coin Krugerrand
+[2015-03-05 11:36:27.434] [INFO] Gold - updating coin American Eagle 1 oz
+[2015-03-05 11:36:27.559] [INFO] Gold - updating coin Maple Leaf
+[2015-03-05 11:38:39.594] [ERROR] Gold - fr/83-australian-nugget-1-oz-gold-2015.html doesn't seem to be a valid URL
+[2015-03-05 11:38:39.594] [INFO] Gold - updating coin Nugget
+[2015-03-05 11:41:16.269] [INFO] Gold - updating coin Nugget
