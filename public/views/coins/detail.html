@@ -17,7 +17,7 @@
 		<div class="col-md-4 form-group">
 			<label>Metal : </label> <input type="text" ng-model="coin.metal" class="form-control" size="6" />
 		</div>
-		
+		<label>Images : </label> <input type="text" ng-model="coin.imagesDir" class="form-control" size="20" />
 	</div>
 	<div class="row">
 		
@@ -33,6 +33,7 @@
 			<div ng-repeat="year in price.years">
 				<label>Année : </label> <input type="text" ng-model="year.year" class="form-control" /> ({{year.price}} €)<br/>
 				<label>URI : </label> http://{{price.store}}/<input type="text" ng-model="year.uri" class="form-control" size="50" />
+				<label>Images : </label> <input type="text" ng-model="year.imagesDir" class="form-control" size="20" />
 			</div>
 		</div>
 		<div class="col-md-12">

@@ -1,5 +1,5 @@
  <div class="row">
-  <div class="col-md-3">
+  <div class="col-md-2">
     <div class="row">
       <div class="col-md-12">
         Chercher par nom <input type="text" ng-model="searchCoin" />
@@ -11,9 +11,9 @@
         </div>
       </div>
       <div class="col-md-12">
-      	Pays
+      	Pays (<a ng-click="clickAll(filterCountry)">tous</a>)
         <div ng-repeat="(country, selected) in filterCountry">
-        	<input type="checkbox" ng-model="filterCountry[country]" /> {{country}}
+        	<input type="checkbox" ng-model="filterCountry[country]" /> <a ng-click="clickOnly(country, filterCountry);">{{country}}</a>
         </div>
       </div>
       <div class="col-md-12">
@@ -28,13 +28,29 @@
           {{bourse.gold.current}} €
         </div>
       </div>
+      <div class="col-md-12">
+        Cours de l'argent
+        <div>
+          {{bourse.silver.current}} €
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="col-md-9">
+  <div class="col-md-10">
     <div class="row">
-      <div class="col-md-12" ng-repeat="coin in coins | filter:searchCoin | byStore:filterStore" ng-if="filterCountry[coin.country]==true && filterMetal[coin.metal]==true">
-        <input type="checkbox" ng-model="coin.enabled" disabled="disabled" /> <a ng-href="#/coins/detail/{{coin._id}}">{{coin.name}} {{coin.weight}} {{coin.metal}}</a> ({{findBestPrice(coin)}} €)
+      <div class="col-sm-6 col-md-4" ng-repeat="coin in coins | filter:searchCoin | byStore:filterStore" ng-if="filterCountry[coin.country]==true && filterMetal[coin.metal]==true">
+        <div class="row" style="margin-bottom:10px;padding-right:10px;">
+          <div class="col-md-7 top-bordered" ng-class="{gold:coin.metal=='Or', silver:coin.metal=='Argent'}">
+            <!-- <input type="checkbox" ng-model="coin.enabled" disabled="disabled" />  -->
+            <a ng-href="#/coins/detail/{{coin._id}}">{{coin.name}} {{coin.weight}}</a>
+            <img ng-src="images/{{coin.imagesDir}}/front.png" width="100"/>
+          </div>
+          <div class="col-md-5 top-bordered price" ng-class="{gold:coin.metal=='Or', silver:coin.metal=='Argent'}">
+            {{coin.bestPrice}} €<br/>Prime : {{coin.prime}}%<br/><br/>
+            Métal : {{coin.metal}}
+          </div>
+        </div>
       </div>
       <div class="col-md-12">
         <a ng-href="#/coins/new">Ajouter</a>

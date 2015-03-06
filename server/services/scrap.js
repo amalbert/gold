@@ -146,20 +146,30 @@
 		return deferred.promise;
 	};
 
-	/*function scrapGoldAndSilver(bourse) {
-		var promises = [];coin.prices.map(function(price) {
-			var deferred = q.defer();
+	function scrapGoldAndSilver(bourse) {
+		var promises = [];
+		var deferredGold = q.defer();
+		var deferredSilver = q.defer();
 
-			var currentStore = hashStore[price.store];
+		getPageContent('http://www.24hgold.com/francais/cours_or_argent.aspx?money=EUR').then(function($) {
+				retreivePrice($, '#ctl00_BodyContent_lbGoldOnceEurValue', {}).then(function(year) {
+						bourse.gold.current = year.price;
+						bourse.gold.lastUpdated = new Date();
+						deferredGold.resolve(bourse);
+					}, logError(deferredGold));
 
-			updateCoinYearsPrices(price, currentStore).then(function(year) {
-				deferred.resolve(coin);
-			}, logError(deferred));
-			return deferred.promise;
-		});
+				retreivePrice($, '#ctl00_BodyContent_lbSilverOnceEurValue', {}).then(function(year) {
+						bourse.silver.current = year.price;
+						bourse.silver.lastUpdated = new Date();
+						deferredSilver.resolve(bourse);
+					}, logError(deferredSilver));
+			}, logError());
+
+		promises.push[deferredGold.promise];
+		promises.push[deferredSilver.promise];
 
 		return q.all(promises);
-	}*/
+	}
 
 	api.scrapGold = function() {
 		bourseService.find().then(function(bourse) {
@@ -168,17 +178,19 @@
 				bourseService.save(bourse);
 				return;
 			}
-			getPageContent('http://www.24hgold.com/francais/cours_or_argent.aspx?money=EUR').then(function($) {
-				retreivePrice($, '#ctl00_BodyContent_lbGoldOnceEurValue', {}).then(function(year) {
-						bourse.gold.current = year.price;
-						bourse.gold.lastUpdated = new Date();
-						bourseService.save(bourse);
-						log.info('updating gold ' + bourse.gold.current);
-					}, logError());
-			}, logError());
+
+			scrapGoldAndSilver(bourse).then(function(bourses) {
+				setTimeout(function() { 
+					log.info('updating gold and silver');
+					bourseService.save(bourse);
+				}, 2000);
+				
+				
+			});
 		}, logError());
 	};
 	
     module.exports = api;
 
 }());
+

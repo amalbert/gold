@@ -4,13 +4,15 @@ var mongoose = require('mongoose')
 var coinSchema = new Schema({
     name:	String,
     enabled:Boolean,
+    imagesDir : String,
     prices:[ {
 	    	store: String,//{ type: Schema.Types.ObjectId, ref: 'Store' }, 
 	    	years: [
 	    		{
 	    			price: Number, 
 	    			year: Number, 
-	    			uri: String
+	    			uri: String,
+                    imagesDir : String
 	    		}]
     	}
     ],

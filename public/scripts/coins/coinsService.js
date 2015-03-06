@@ -11,7 +11,7 @@ service.factory('CoinsService', [ '$rootScope', '$http', '$q', function($rootSco
     	deferred.reject(error);
     };
 
-    var url = 'http://localhost:8081/';
+    var url = 'http://172.18.9.63:8081/';
 
 	service.list = function() {
 		var deferred = $q.defer();
@@ -97,6 +97,10 @@ service.factory('CoinsService', [ '$rootScope', '$http', '$q', function($rootSco
 		}
 
 		return bestPrice;
+	};
+
+	service.getPrime = function(price, spot) {
+		return (price - spot) / spot;
 	};
 
     return service;

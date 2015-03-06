@@ -1,0 +1,24 @@
+a {
+	cursor:pointer;
+}
+
+.top-bordered.gold {
+	border-top:3px solid #EDCF5A;
+}
+
+.top-bordered.silver {
+	border-top:3px solid #C5C3C4;
+}
+
+.price {
+	margin-top:-10px;
+	margin-left:-25px;
+}
+
+.price.gold {
+	background:#EDCF5A;
+}
+
+.price.silver {
+	background:#C5C3C4;
+}
