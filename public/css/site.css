@@ -1,5 +1,17 @@
+header {
+	height:70px;
+	font-size:2em;
+	font-weight:bold;
+	background:#559ADD;
+	margin-bottom:20px;
+}
+
 a {
 	cursor:pointer;
+}
+
+.top-bordered {
+	margin-bottom:10px;
 }
 
 .top-bordered.gold {
@@ -13,6 +25,12 @@ a {
 .price {
 	margin-top:-10px;
 	margin-left:-25px;
+}
+
+.price span {
+	font-weight:bold;
+	font-size:1.2em;
+	text-align:right;
 }
 
 .price.gold {
