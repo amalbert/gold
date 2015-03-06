@@ -36,6 +36,7 @@ var scrapService = require('./server/services/scrap');
 
 function scrapeAll() {
 	scrapService.scrap();
+	scrapService.scrapGold();
 }
 
 scrapeAll();

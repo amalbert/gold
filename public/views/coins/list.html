@@ -1,17 +1,45 @@
  <div class="row">
-  <div class="col-md-12">
-    Liste des pièces <input type="text" ng-model="searchCoin" />
-  </div>
-  <div class="col-md-12" ng-repeat="coin in coins | filter:searchCoin" ng-if="filterCountry[coin.country]==true">
-    <input type="checkbox" ng-model="coin.enabled" disabled="disabled" /> <a ng-href="#/coins/detail/{{coin._id}}">{{coin.name}}</a> ({{findBestPrice(coin)}} €)
-  </div>
-  <div class="col-md-12">
-    <a ng-href="#/coins/new">Ajouter</a>
+  <div class="col-md-3">
+    <div class="row">
+      <div class="col-md-12">
+        Chercher par nom <input type="text" ng-model="searchCoin" />
+      </div>
+      <div class="col-md-12">
+        Matière
+        <div ng-repeat="(metal, selected) in filterMetal">
+          <input type="checkbox" ng-model="filterMetal[metal]" /> {{metal}}
+        </div>
+      </div>
+      <div class="col-md-12">
+      	Pays
+        <div ng-repeat="(country, selected) in filterCountry">
+        	<input type="checkbox" ng-model="filterCountry[country]" /> {{country}}
+        </div>
+      </div>
+      <div class="col-md-12">
+        Magasins
+        <div ng-repeat="store in stores">
+          <input type="checkbox" ng-model="filterStore[store.name]" /> {{store.name}}
+        </div>
+      </div>
+      <div class="col-md-12">
+        Cours de l'or
+        <div>
+          {{bourse.gold.current}} €
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="col-md-12">
-  	Pays
-    <div class="col-md-12" ng-repeat="(country, coin) in coinsBycountries">
-    	<input type="checkbox" ng-model="filterCountry[country]" /> {{country}}
+  <div class="col-md-9">
+    <div class="row">
+      <div class="col-md-12" ng-repeat="coin in coins | filter:searchCoin | byStore:filterStore" ng-if="filterCountry[coin.country]==true && filterMetal[coin.metal]==true">
+        <input type="checkbox" ng-model="coin.enabled" disabled="disabled" /> <a ng-href="#/coins/detail/{{coin._id}}">{{coin.name}} {{coin.weight}} {{coin.metal}}</a> ({{findBestPrice(coin)}} €)
+      </div>
+      <div class="col-md-12">
+        <a ng-href="#/coins/new">Ajouter</a>
+      </div>
+    </div>
   </div>
 </div>
+

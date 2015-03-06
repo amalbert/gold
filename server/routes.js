@@ -1,6 +1,7 @@
 (function() {
 	var coins = require('./controllers/coins');
 	var stores = require('./controllers/stores');
+	var bourse = require('./controllers/bourse');
 	var log = require('./logger').logger;
 
 	this.configure = function(app) {
@@ -11,6 +12,8 @@
 		app.post('/store', stores.save);
 		app.get('/stores', stores.list);
 		app.get('/store/:id', stores.find);
+
+		app.get('/bourse', bourse.find);
 	}
     module.exports = {
         routes : this

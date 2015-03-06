@@ -3,20 +3,32 @@
 
 	var Coin = require('../model/coin');
 	var Store = require('../model/store');
+	var Bourse = require('../model/bourse');
 
 	var coinService = require('../services/coins');
 	var storeService = require('../services/stores');
+	var bourseService = require('../services/bourse');
 
 	var q = require("q");
 	var request = require('request');
 	var cheerio = require('cheerio');
+
+	var logError = function(deferred) {
+		return function(err) {
+			log.error(err);
+			if (deferred)
+				deferred.reject(err);
+		}
+	}
 
 	function retreivePrice($, selector, year) {
 		var deferred = q.defer();
 		var priced = false;
 		$(selector).filter(function(){
 			var data = $(this);
-			year.price = parseFloat(data.text().replace('€', '').replace(' ', ''));
+			
+			year.price = parseFloat(data.text().replace(',', '.').replace('€', '').replace(/ /g, '').replace(/[^ -~]/g, ''));
+
 			deferred.resolve(year);
 			priced = true;
 		});
@@ -57,14 +69,8 @@
 		getPageContent(store.url + '/' + year.uri).then(function($) {
 			retreivePrice($, store.priceSelector, year).then(function(year) {
 					deferred.resolve(year);
-				}, function(err) {
-					log.error(err);
-					deferred.reject(err);
-				});
-		}, function(err) {
-			log.error(err);
-			deferred.reject(err);
-		});
+				}, logError(deferred));
+		}, logError(deferred));
 
 		return deferred.promise;
 	}
@@ -75,10 +81,7 @@
 
 			scrapPage(currentStore, year).then(function(year) {
 				deferred.resolve(year);
-			}, function(err) {
-				log.error(err);
-				deferred.reject(err);
-			});
+			}, logError(deferred));
 
 			return deferred.promise;
 		});
@@ -86,7 +89,6 @@
 	}
 
 	function updateCoinPrices(coin, hashStore) {
-
 		var promises = coin.prices.map(function(price) {
 			var deferred = q.defer();
 
@@ -94,10 +96,7 @@
 
 			updateCoinYearsPrices(price, currentStore).then(function(year) {
 				deferred.resolve(coin);
-			}, function(err) {
-				log.error(err);
-				deferred.reject(err);
-			});
+			}, logError(deferred));
 			return deferred.promise;
 		});
 
@@ -119,17 +118,11 @@
 						updateCoinPrices(coin, hashStore).then(function(coinUpdated) {
 							coinService.save(coinUpdated[0]);
 							log.info('updating coin ' + coinUpdated[0].name);
-						}, function(err) {
-							log.error(err);
-						});
+						}, logError());
 					}
 				});
-			}, function (error) {
-				log.error(err);
-			});
-		}, function (error) {
-			log.error(err);
-		});
+			}, logError());
+		}, logError());
 	};
 
 	api.scrapOne = function(coin) {
@@ -146,17 +139,44 @@
 					deferred.resolve(coinSaved);
 				});
 				log.info('updating coin ' + coinUpdated[0].name);
-			}, function(err) {
-				log.error(err);
-				deferred.reject(err);
-			});
+			}, logError(deferred));
 
-		}, function (error) {
-			log.error(err);
-			deferred.reject(err);
-		});
+		}, logError(deferred));
 
 		return deferred.promise;
+	};
+
+	/*function scrapGoldAndSilver(bourse) {
+		var promises = [];coin.prices.map(function(price) {
+			var deferred = q.defer();
+
+			var currentStore = hashStore[price.store];
+
+			updateCoinYearsPrices(price, currentStore).then(function(year) {
+				deferred.resolve(coin);
+			}, logError(deferred));
+			return deferred.promise;
+		});
+
+		return q.all(promises);
+	}*/
+
+	api.scrapGold = function() {
+		bourseService.find().then(function(bourse) {
+			if (bourse === undefined) {
+				bourse = new Bourse();
+				bourseService.save(bourse);
+				return;
+			}
+			getPageContent('http://www.24hgold.com/francais/cours_or_argent.aspx?money=EUR').then(function($) {
+				retreivePrice($, '#ctl00_BodyContent_lbGoldOnceEurValue', {}).then(function(year) {
+						bourse.gold.current = year.price;
+						bourse.gold.lastUpdated = new Date();
+						bourseService.save(bourse);
+						log.info('updating gold ' + bourse.gold.current);
+					}, logError());
+			}, logError());
+		}, logError());
 	};
 	
     module.exports = api;

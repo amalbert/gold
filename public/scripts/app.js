@@ -1,14 +1,12 @@
 'use strict';
 
-angular.module('Controllers', ['Services']);
-angular.module('Services', []);
+angular.module('Controllers', ['Services', 'Filters']);
+angular.module('Services', ['Filters']);
 angular.module('Directives', ['Filters']);
 angular.module('Filters', []);
 
 angular
-  .module('gold', [
-    'ngAnimate', 'ngResource', 'ngRoute', 'Directives', 'Services', 'Controllers'
- ])
+  .module('gold', [ 'ngAnimate', 'ngResource', 'ngRoute', 'Directives', 'Services', 'Controllers', 'Filters' ])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
@@ -43,3 +41,19 @@ angular
       });
 
   });
+
+  
+if (!Array.prototype.contains) {
+  Array.prototype.contains = function (obj, fromIndex) {
+    if (fromIndex == null) {
+        fromIndex = 0;
+    } else if (fromIndex < 0) {
+        fromIndex = Math.max(0, this.length + fromIndex);
+    }
+    for (var i = fromIndex, j = this.length; i < j; i++) {
+        if (this[i] === obj)
+            return true;
+    }
+    return false;
+  };
+}

@@ -4,13 +4,11 @@ service.factory('CoinsService', [ '$rootScope', '$http', '$q', function($rootSco
 	var service = {};
 
 	var success = function(deferred, data) {
-		console.log(success);
     	deferred.resolve(data);
     };
 
     var error = function(deferred, error) {
     	deferred.reject(error);
-    	console.log(error)
     };
 
     var url = 'http://localhost:8081/';
