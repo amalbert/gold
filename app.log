@@ -1660,3 +1660,1620 @@
 [2015-03-06 16:23:00.339] [INFO] Gold - updating coin Panda 10 Yuan
 [2015-03-06 16:23:00.391] [INFO] Gold - updating coin American Eagle
 [2015-03-06 16:23:01.465] [INFO] Gold - updating gold and silver
+[2015-03-06 19:59:52.299] [INFO] Gold - starting to scrap sites
+[2015-03-06 19:59:52.413] [INFO] Gold - Trying to connect to Mongo DB
+[2015-03-06 19:59:53.449] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-06 20:06:26.000] [INFO] Gold - starting to scrap sites
+[2015-03-06 20:06:26.094] [INFO] Gold - Trying to connect to Mongo DB
+[2015-03-06 20:16:24.662] [INFO] Gold - starting to scrap sites
+[2015-03-06 20:16:24.757] [INFO] Gold - Trying to connect to Mongo DB
+[2015-03-06 20:16:26.834] [INFO] Gold - updating gold and silver
+[2015-03-06 20:21:24.662] [ERROR] Gold - canada-1-once-d-or-maple-leaf-2015.html doesn't seem to be a valid URL
+[2015-03-06 20:21:24.671] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 20:22:10.061] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 20:24:34.702] [INFO] Gold - updating coin Koala
+[2015-03-06 20:25:28.492] [INFO] Gold - updating coin Koala
+[2015-03-06 20:26:24.694] [INFO] Gold - starting to scrap sites
+[2015-03-06 20:26:25.223] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 20:26:25.246] [INFO] Gold - updating coin Koala
+[2015-03-06 20:26:26.704] [INFO] Gold - updating gold and silver
+[2015-03-06 20:32:02.768] [INFO] Gold - updating coin Koala
+[2015-03-06 20:33:56.451] [ERROR] Gold - argent/pieces-modernes/1335/koala-1-once-2015 doesn't seem to be a valid URL
+[2015-03-06 20:33:56.463] [INFO] Gold - updating coin Koala
+[2015-03-06 20:34:07.333] [ERROR] Gold - argent/pieces-modernes/1335/koala-1-once-2015 doesn't seem to be a valid URL
+[2015-03-06 20:34:07.338] [INFO] Gold - updating coin Koala
+[2015-03-06 20:35:04.780] [INFO] Gold - updating coin Koala
+[2015-03-06 20:36:24.717] [INFO] Gold - starting to scrap sites
+[2015-03-06 20:36:25.201] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 20:36:25.221] [INFO] Gold - updating coin Koala
+[2015-03-06 20:36:25.449] [INFO] Gold - updating coin Koala
+[2015-03-06 20:36:26.725] [INFO] Gold - updating gold and silver
+[2015-03-06 20:46:24.725] [INFO] Gold - starting to scrap sites
+[2015-03-06 20:46:25.161] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 20:46:25.201] [INFO] Gold - updating coin Koala
+[2015-03-06 20:46:26.741] [INFO] Gold - updating gold and silver
+[2015-03-06 20:46:30.401] [INFO] Gold - updating coin Koala
+[2015-03-06 20:56:24.742] [INFO] Gold - starting to scrap sites
+[2015-03-06 20:56:25.251] [INFO] Gold - updating coin Koala
+[2015-03-06 20:56:25.289] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 20:56:25.332] [INFO] Gold - updating coin Koala
+[2015-03-06 20:56:26.761] [INFO] Gold - updating gold and silver
+[2015-03-06 21:06:24.760] [INFO] Gold - starting to scrap sites
+[2015-03-06 21:06:25.089] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 21:06:25.245] [INFO] Gold - updating coin Koala
+[2015-03-06 21:06:25.498] [INFO] Gold - updating coin Koala
+[2015-03-06 21:06:26.780] [INFO] Gold - updating gold and silver
+[2015-03-06 21:16:24.779] [INFO] Gold - starting to scrap sites
+[2015-03-06 21:16:25.276] [INFO] Gold - updating coin Koala
+[2015-03-06 21:16:25.296] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 21:16:25.551] [INFO] Gold - updating coin Koala
+[2015-03-06 21:16:26.797] [INFO] Gold - updating gold and silver
+[2015-03-06 21:26:24.799] [INFO] Gold - starting to scrap sites
+[2015-03-06 21:26:25.345] [INFO] Gold - updating coin Koala
+[2015-03-06 21:26:25.362] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 21:26:25.570] [INFO] Gold - updating coin Koala
+[2015-03-06 21:26:26.818] [INFO] Gold - updating gold and silver
+[2015-03-06 21:36:24.817] [INFO] Gold - starting to scrap sites
+[2015-03-06 21:36:25.213] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 21:36:25.232] [INFO] Gold - updating coin Koala
+[2015-03-06 21:36:25.439] [INFO] Gold - updating coin Koala
+[2015-03-06 21:36:26.837] [INFO] Gold - updating gold and silver
+[2015-03-06 21:46:24.836] [INFO] Gold - starting to scrap sites
+[2015-03-06 21:46:25.704] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 21:46:25.721] [INFO] Gold - updating coin Koala
+[2015-03-06 21:46:25.739] [INFO] Gold - updating coin Koala
+[2015-03-06 21:46:26.856] [INFO] Gold - updating gold and silver
+[2015-03-06 21:56:24.855] [INFO] Gold - starting to scrap sites
+[2015-03-06 21:56:25.311] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 21:56:25.329] [INFO] Gold - updating coin Koala
+[2015-03-06 21:56:25.462] [INFO] Gold - updating coin Koala
+[2015-03-06 21:56:26.876] [INFO] Gold - updating gold and silver
+[2015-03-06 22:06:24.874] [INFO] Gold - starting to scrap sites
+[2015-03-06 22:06:25.286] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 22:06:25.316] [INFO] Gold - updating coin Koala
+[2015-03-06 22:06:25.639] [INFO] Gold - updating coin Koala
+[2015-03-06 22:06:26.990] [INFO] Gold - updating gold and silver
+[2015-03-06 22:16:24.893] [INFO] Gold - starting to scrap sites
+[2015-03-06 22:16:25.421] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 22:16:25.441] [INFO] Gold - updating coin Koala
+[2015-03-06 22:16:25.546] [INFO] Gold - updating coin Koala
+[2015-03-06 22:16:26.914] [INFO] Gold - updating gold and silver
+[2015-03-06 22:34:45.504] [INFO] Gold - starting to scrap sites
+[2015-03-06 22:34:47.518] [INFO] Gold - updating gold and silver
+[2015-03-06 22:34:47.547] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-06 22:34:47.947] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 22:34:47.973] [INFO] Gold - updating coin Koala
+[2015-03-06 22:44:45.527] [INFO] Gold - starting to scrap sites
+[2015-03-06 22:44:46.142] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 22:44:46.167] [INFO] Gold - updating coin Koala
+[2015-03-06 22:44:46.283] [INFO] Gold - updating coin Koala
+[2015-03-06 22:44:47.547] [INFO] Gold - updating gold and silver
+[2015-03-06 22:54:10.150] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 22:54:45.564] [INFO] Gold - starting to scrap sites
+[2015-03-06 22:54:46.408] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 22:54:46.433] [INFO] Gold - updating coin Koala
+[2015-03-06 22:54:46.459] [INFO] Gold - updating coin Koala
+[2015-03-06 22:54:46.477] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 22:54:47.572] [INFO] Gold - updating gold and silver
+[2015-03-06 23:04:45.570] [INFO] Gold - starting to scrap sites
+[2015-03-06 23:04:45.987] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 23:04:46.030] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 23:04:46.075] [INFO] Gold - updating coin Koala
+[2015-03-06 23:04:46.344] [INFO] Gold - updating coin Koala
+[2015-03-06 23:04:47.591] [INFO] Gold - updating gold and silver
+[2015-03-06 23:14:45.589] [INFO] Gold - starting to scrap sites
+[2015-03-06 23:14:46.045] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 23:14:46.065] [INFO] Gold - updating coin Koala
+[2015-03-06 23:14:46.113] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 23:14:46.336] [INFO] Gold - updating coin Koala
+[2015-03-06 23:14:47.612] [INFO] Gold - updating gold and silver
+[2015-03-06 23:24:45.608] [INFO] Gold - starting to scrap sites
+[2015-03-06 23:24:46.122] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 23:24:46.141] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 23:24:46.160] [INFO] Gold - updating coin Koala
+[2015-03-06 23:24:46.182] [INFO] Gold - updating coin Koala
+[2015-03-06 23:24:47.629] [INFO] Gold - updating gold and silver
+[2015-03-06 23:34:45.626] [INFO] Gold - starting to scrap sites
+[2015-03-06 23:34:46.024] [INFO] Gold - updating coin Koala
+[2015-03-06 23:34:46.044] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 23:34:46.067] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 23:34:46.356] [INFO] Gold - updating coin Koala
+[2015-03-06 23:34:47.646] [INFO] Gold - updating gold and silver
+[2015-03-06 23:44:45.646] [INFO] Gold - starting to scrap sites
+[2015-03-06 23:44:46.093] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 23:44:46.118] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 23:44:46.137] [INFO] Gold - updating coin Koala
+[2015-03-06 23:44:46.509] [INFO] Gold - updating coin Koala
+[2015-03-06 23:44:47.670] [INFO] Gold - updating gold and silver
+[2015-03-06 23:54:45.665] [INFO] Gold - starting to scrap sites
+[2015-03-06 23:54:46.243] [INFO] Gold - updating coin Koala
+[2015-03-06 23:54:46.262] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 23:54:46.278] [INFO] Gold - updating coin Koala
+[2015-03-06 23:54:46.730] [INFO] Gold - updating coin Maple Leaf
+[2015-03-06 23:54:47.685] [INFO] Gold - updating gold and silver
+[2015-03-07 00:04:45.684] [INFO] Gold - starting to scrap sites
+[2015-03-07 00:04:46.169] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 00:04:46.204] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 00:04:46.231] [INFO] Gold - updating coin Koala
+[2015-03-07 00:04:46.282] [INFO] Gold - updating coin Koala
+[2015-03-07 00:04:47.705] [INFO] Gold - updating gold and silver
+[2015-03-07 00:14:45.703] [INFO] Gold - starting to scrap sites
+[2015-03-07 00:14:46.109] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 00:14:46.126] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 00:14:46.208] [INFO] Gold - updating coin Koala
+[2015-03-07 00:14:46.484] [INFO] Gold - updating coin Koala
+[2015-03-07 00:14:47.727] [INFO] Gold - updating gold and silver
+[2015-03-07 00:24:45.722] [INFO] Gold - starting to scrap sites
+[2015-03-07 00:24:46.166] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 00:24:46.183] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 00:24:46.200] [INFO] Gold - updating coin Koala
+[2015-03-07 00:24:46.477] [INFO] Gold - updating coin Koala
+[2015-03-07 00:24:47.743] [INFO] Gold - updating gold and silver
+[2015-03-07 00:25:52.459] [INFO] Gold - updating coin American Eagle
+[2015-03-07 00:27:37.534] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 00:27:53.886] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 00:29:00.776] [INFO] Gold - updating coin American Eagle
+[2015-03-07 00:34:45.751] [INFO] Gold - starting to scrap sites
+[2015-03-07 00:34:46.199] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 00:34:46.216] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 00:34:46.279] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 00:34:46.305] [INFO] Gold - updating coin Koala
+[2015-03-07 00:34:46.390] [INFO] Gold - updating coin Koala
+[2015-03-07 00:34:46.504] [INFO] Gold - updating coin American Eagle
+[2015-03-07 00:34:47.759] [INFO] Gold - updating gold and silver
+[2015-03-07 00:37:44.771] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 00:39:38.225] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 00:41:29.264] [ERROR] Gold - or/pieces-modernes/1320/nugget-1-once-2015 doesn't seem to be a valid URL
+[2015-03-07 00:41:29.268] [INFO] Gold - updating coin Nugget
+[2015-03-07 00:41:56.965] [INFO] Gold - updating coin Nugget
+[2015-03-07 00:44:45.776] [INFO] Gold - starting to scrap sites
+[2015-03-07 00:44:46.263] [INFO] Gold - updating coin Koala
+[2015-03-07 00:44:46.284] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 00:44:46.353] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 00:44:46.372] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 00:44:46.525] [INFO] Gold - updating coin Nugget
+[2015-03-07 00:44:46.559] [INFO] Gold - updating coin Koala
+[2015-03-07 00:44:46.594] [INFO] Gold - updating coin American Eagle
+[2015-03-07 00:44:46.630] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 00:44:47.786] [INFO] Gold - updating gold and silver
+[2015-03-07 00:45:45.655] [INFO] Gold - updating coin African wildlife
+[2015-03-07 00:54:45.796] [INFO] Gold - starting to scrap sites
+[2015-03-07 00:54:46.352] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 00:54:46.370] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 00:54:46.420] [INFO] Gold - updating coin Koala
+[2015-03-07 00:54:46.441] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 00:54:46.600] [INFO] Gold - updating coin Nugget
+[2015-03-07 00:54:46.633] [INFO] Gold - updating coin American Eagle
+[2015-03-07 00:54:46.655] [INFO] Gold - updating coin African wildlife
+[2015-03-07 00:54:46.682] [INFO] Gold - updating coin Koala
+[2015-03-07 00:54:46.717] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 00:54:47.807] [INFO] Gold - updating gold and silver
+[2015-03-07 01:04:45.807] [INFO] Gold - starting to scrap sites
+[2015-03-07 01:04:46.330] [INFO] Gold - updating coin Koala
+[2015-03-07 01:04:46.390] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 01:04:46.410] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 01:04:46.430] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 01:04:46.731] [INFO] Gold - updating coin Koala
+[2015-03-07 01:04:46.783] [INFO] Gold - updating coin American Eagle
+[2015-03-07 01:04:46.833] [INFO] Gold - updating coin African wildlife
+[2015-03-07 01:04:46.868] [INFO] Gold - updating coin Nugget
+[2015-03-07 01:04:46.900] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 01:04:47.820] [INFO] Gold - updating gold and silver
+[2015-03-07 01:14:45.821] [INFO] Gold - starting to scrap sites
+[2015-03-07 01:14:46.357] [INFO] Gold - updating coin Koala
+[2015-03-07 01:14:46.376] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 01:14:46.393] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 01:14:46.424] [INFO] Gold - updating coin Koala
+[2015-03-07 01:14:46.474] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 01:14:46.498] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 01:14:46.568] [INFO] Gold - updating coin Nugget
+[2015-03-07 01:14:46.588] [INFO] Gold - updating coin African wildlife
+[2015-03-07 01:14:46.612] [INFO] Gold - updating coin American Eagle
+[2015-03-07 01:14:47.840] [INFO] Gold - updating gold and silver
+[2015-03-07 01:24:45.840] [INFO] Gold - starting to scrap sites
+[2015-03-07 01:24:46.414] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 01:24:46.449] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 01:24:46.465] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 01:24:46.490] [INFO] Gold - updating coin Koala
+[2015-03-07 01:24:46.652] [INFO] Gold - updating coin Koala
+[2015-03-07 01:24:46.674] [INFO] Gold - updating coin American Eagle
+[2015-03-07 01:24:46.697] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 01:24:46.716] [INFO] Gold - updating coin Nugget
+[2015-03-07 01:24:46.818] [INFO] Gold - updating coin African wildlife
+[2015-03-07 01:24:47.858] [INFO] Gold - updating gold and silver
+[2015-03-07 01:34:45.874] [INFO] Gold - starting to scrap sites
+[2015-03-07 01:34:46.501] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 01:34:46.517] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 01:34:46.535] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 01:34:46.612] [INFO] Gold - updating coin Nugget
+[2015-03-07 01:34:46.635] [INFO] Gold - updating coin American Eagle
+[2015-03-07 01:34:46.654] [INFO] Gold - updating coin Koala
+[2015-03-07 01:34:46.798] [INFO] Gold - updating coin African wildlife
+[2015-03-07 01:34:46.822] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 01:34:46.840] [INFO] Gold - updating coin Koala
+[2015-03-07 01:34:47.879] [INFO] Gold - updating gold and silver
+[2015-03-07 01:44:45.880] [INFO] Gold - starting to scrap sites
+[2015-03-07 01:44:46.488] [INFO] Gold - updating coin Nugget
+[2015-03-07 01:44:47.896] [INFO] Gold - updating gold and silver
+[2015-03-07 01:44:49.029] [INFO] Gold - updating coin Koala
+[2015-03-07 01:44:49.054] [INFO] Gold - updating coin Koala
+[2015-03-07 01:44:49.072] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 01:44:49.129] [INFO] Gold - updating coin American Eagle
+[2015-03-07 01:44:49.151] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 01:44:49.169] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 01:44:49.615] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 01:44:51.214] [INFO] Gold - updating coin African wildlife
+[2015-03-07 01:54:45.898] [INFO] Gold - starting to scrap sites
+[2015-03-07 01:54:46.389] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 01:54:46.431] [INFO] Gold - updating coin Nugget
+[2015-03-07 01:54:46.456] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 01:54:46.491] [INFO] Gold - updating coin Koala
+[2015-03-07 01:54:46.523] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 01:54:46.639] [INFO] Gold - updating coin Koala
+[2015-03-07 01:54:46.662] [INFO] Gold - updating coin American Eagle
+[2015-03-07 01:54:46.685] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 01:54:46.821] [INFO] Gold - updating coin African wildlife
+[2015-03-07 01:54:47.916] [INFO] Gold - updating gold and silver
+[2015-03-07 02:04:45.916] [INFO] Gold - starting to scrap sites
+[2015-03-07 02:04:46.516] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 02:04:46.534] [INFO] Gold - updating coin Koala
+[2015-03-07 02:04:46.564] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 02:04:46.802] [INFO] Gold - updating coin African wildlife
+[2015-03-07 02:04:46.825] [INFO] Gold - updating coin American Eagle
+[2015-03-07 02:04:46.845] [INFO] Gold - updating coin Nugget
+[2015-03-07 02:04:46.898] [INFO] Gold - updating coin Koala
+[2015-03-07 02:04:46.925] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 02:04:46.943] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 02:04:47.934] [INFO] Gold - updating gold and silver
+[2015-03-07 02:14:45.950] [INFO] Gold - starting to scrap sites
+[2015-03-07 02:14:46.380] [INFO] Gold - updating coin Koala
+[2015-03-07 02:14:46.429] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 02:14:46.449] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 02:14:46.469] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 02:14:46.507] [INFO] Gold - updating coin Koala
+[2015-03-07 02:14:46.590] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 02:14:46.608] [INFO] Gold - updating coin Nugget
+[2015-03-07 02:14:46.885] [INFO] Gold - updating coin African wildlife
+[2015-03-07 02:14:46.975] [INFO] Gold - updating coin American Eagle
+[2015-03-07 02:14:47.955] [INFO] Gold - updating gold and silver
+[2015-03-07 02:24:45.954] [INFO] Gold - starting to scrap sites
+[2015-03-07 02:24:46.464] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 02:24:46.487] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 02:24:46.511] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 02:24:46.535] [INFO] Gold - updating coin Koala
+[2015-03-07 02:24:46.658] [INFO] Gold - updating coin Koala
+[2015-03-07 02:24:46.722] [INFO] Gold - updating coin Nugget
+[2015-03-07 02:24:46.773] [INFO] Gold - updating coin American Eagle
+[2015-03-07 02:24:46.800] [INFO] Gold - updating coin African wildlife
+[2015-03-07 02:24:46.849] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 02:24:47.972] [INFO] Gold - updating gold and silver
+[2015-03-07 02:34:45.972] [INFO] Gold - starting to scrap sites
+[2015-03-07 02:34:46.462] [INFO] Gold - updating coin Koala
+[2015-03-07 02:34:46.484] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 02:34:46.519] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 02:34:46.540] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 02:34:46.740] [INFO] Gold - updating coin Koala
+[2015-03-07 02:34:46.770] [INFO] Gold - updating coin Nugget
+[2015-03-07 02:34:46.799] [INFO] Gold - updating coin African wildlife
+[2015-03-07 02:34:46.894] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 02:34:46.912] [INFO] Gold - updating coin American Eagle
+[2015-03-07 02:34:47.991] [INFO] Gold - updating gold and silver
+[2015-03-07 08:36:43.507] [INFO] Gold - starting to scrap sites
+[2015-03-07 08:36:45.523] [INFO] Gold - updating gold and silver
+[2015-03-07 08:36:47.365] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 08:36:47.369] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 08:36:47.373] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 08:36:47.389] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 08:36:47.393] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 08:36:47.398] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 08:36:47.402] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 08:36:47.411] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 08:36:47.414] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 08:36:47.854] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 08:36:47.962] [INFO] Gold - updating coin Koala
+[2015-03-07 09:45:18.504] [INFO] Gold - starting to scrap sites
+[2015-03-07 09:45:20.507] [INFO] Gold - updating gold and silver
+[2015-03-07 09:45:26.562] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 09:45:26.563] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 09:45:26.564] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 09:45:26.565] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 09:45:26.566] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 09:45:26.569] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 09:45:26.569] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 09:45:26.570] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 09:45:26.571] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 09:45:27.040] [INFO] Gold - updating coin Koala
+[2015-03-07 09:45:27.058] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 09:55:18.033] [INFO] Gold - starting to scrap sites
+[2015-03-07 09:55:18.606] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 09:55:18.630] [INFO] Gold - updating coin Koala
+[2015-03-07 09:55:18.676] [INFO] Gold - updating coin African wildlife
+[2015-03-07 09:55:18.700] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 09:55:18.722] [INFO] Gold - updating coin Koala
+[2015-03-07 09:55:18.746] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 09:55:18.803] [INFO] Gold - updating coin Nugget
+[2015-03-07 09:55:18.834] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 09:55:18.865] [INFO] Gold - updating coin American Eagle
+[2015-03-07 09:55:20.051] [INFO] Gold - updating gold and silver
+[2015-03-07 10:05:18.063] [INFO] Gold - starting to scrap sites
+[2015-03-07 10:05:18.763] [INFO] Gold - updating coin Koala
+[2015-03-07 10:05:18.817] [INFO] Gold - updating coin African wildlife
+[2015-03-07 10:05:18.838] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 10:05:18.858] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 10:05:18.875] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 10:05:18.922] [INFO] Gold - updating coin Koala
+[2015-03-07 10:05:18.944] [INFO] Gold - updating coin American Eagle
+[2015-03-07 10:05:19.285] [INFO] Gold - updating coin Nugget
+[2015-03-07 10:05:19.354] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 10:05:20.080] [INFO] Gold - updating gold and silver
+[2015-03-07 10:15:18.069] [INFO] Gold - starting to scrap sites
+[2015-03-07 10:15:18.563] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 10:15:18.607] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 10:15:18.644] [INFO] Gold - updating coin Koala
+[2015-03-07 10:15:18.696] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 10:15:18.714] [INFO] Gold - updating coin African wildlife
+[2015-03-07 10:15:18.790] [INFO] Gold - updating coin Nugget
+[2015-03-07 10:15:18.839] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 10:15:18.860] [INFO] Gold - updating coin Koala
+[2015-03-07 10:15:18.881] [INFO] Gold - updating coin American Eagle
+[2015-03-07 10:15:20.089] [INFO] Gold - updating gold and silver
+[2015-03-07 10:19:36.668] [INFO] Gold - updating coin Panda
+[2015-03-07 10:25:18.099] [INFO] Gold - starting to scrap sites
+[2015-03-07 10:25:18.573] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 10:25:18.591] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 10:25:18.615] [INFO] Gold - updating coin Panda
+[2015-03-07 10:25:18.632] [INFO] Gold - updating coin African wildlife
+[2015-03-07 10:25:18.668] [INFO] Gold - updating coin Koala
+[2015-03-07 10:25:18.722] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 10:25:18.750] [INFO] Gold - updating coin American Eagle
+[2015-03-07 10:25:18.840] [INFO] Gold - updating coin Nugget
+[2015-03-07 10:25:18.922] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 10:25:18.950] [INFO] Gold - updating coin Koala
+[2015-03-07 10:25:20.109] [INFO] Gold - updating gold and silver
+[2015-03-07 10:35:18.108] [INFO] Gold - starting to scrap sites
+[2015-03-07 10:35:18.668] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 10:35:18.686] [INFO] Gold - updating coin Koala
+[2015-03-07 10:35:18.717] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 10:35:18.734] [INFO] Gold - updating coin African wildlife
+[2015-03-07 10:35:18.769] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 10:35:18.902] [INFO] Gold - updating coin Koala
+[2015-03-07 10:35:18.921] [INFO] Gold - updating coin Nugget
+[2015-03-07 10:35:18.953] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 10:35:18.975] [INFO] Gold - updating coin American Eagle
+[2015-03-07 10:35:18.994] [INFO] Gold - updating coin Panda
+[2015-03-07 10:35:20.126] [INFO] Gold - updating gold and silver
+[2015-03-07 10:45:18.127] [INFO] Gold - starting to scrap sites
+[2015-03-07 10:45:18.618] [INFO] Gold - updating coin Koala
+[2015-03-07 10:45:18.640] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 10:45:18.666] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 10:45:18.711] [INFO] Gold - updating coin Panda
+[2015-03-07 10:45:18.731] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 10:45:18.771] [INFO] Gold - updating coin African wildlife
+[2015-03-07 10:45:19.035] [INFO] Gold - updating coin American Eagle
+[2015-03-07 10:45:19.066] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 10:45:19.089] [INFO] Gold - updating coin Koala
+[2015-03-07 10:45:19.114] [INFO] Gold - updating coin Nugget
+[2015-03-07 10:45:20.146] [INFO] Gold - updating gold and silver
+[2015-03-07 10:51:14.735] [INFO] Gold - starting to scrap sites
+[2015-03-07 10:51:15.015] [INFO] Gold - Trying to connect to Mongo DB
+[2015-03-07 10:51:15.794] [INFO] Gold - updating coin Panda
+[2015-03-07 10:51:15.839] [INFO] Gold - updating coin Koala
+[2015-03-07 10:51:15.859] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 10:51:15.881] [INFO] Gold - updating coin African wildlife
+[2015-03-07 10:51:15.938] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 10:51:15.995] [INFO] Gold - updating coin American Eagle
+[2015-03-07 10:51:16.029] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 10:51:16.052] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 10:51:16.080] [INFO] Gold - updating coin Koala
+[2015-03-07 10:51:16.134] [INFO] Gold - updating coin Nugget
+[2015-03-07 10:51:17.122] [INFO] Gold - updating gold and silver
+[2015-03-07 11:01:14.755] [INFO] Gold - starting to scrap sites
+[2015-03-07 11:01:15.425] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 11:01:15.446] [INFO] Gold - updating coin Panda
+[2015-03-07 11:01:15.470] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 11:01:15.496] [INFO] Gold - updating coin Koala
+[2015-03-07 11:01:15.540] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 11:01:15.567] [INFO] Gold - updating coin African wildlife
+[2015-03-07 11:01:15.660] [INFO] Gold - updating coin American Eagle
+[2015-03-07 11:01:15.688] [INFO] Gold - updating coin Koala
+[2015-03-07 11:01:15.728] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 11:01:15.752] [INFO] Gold - updating coin Nugget
+[2015-03-07 11:01:16.772] [INFO] Gold - updating gold and silver
+[2015-03-07 11:11:14.772] [INFO] Gold - starting to scrap sites
+[2015-03-07 11:11:15.286] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 11:11:15.362] [INFO] Gold - updating coin African wildlife
+[2015-03-07 11:11:15.379] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 11:11:15.408] [INFO] Gold - updating coin American Eagle
+[2015-03-07 11:11:15.427] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 11:11:15.468] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 11:11:15.488] [INFO] Gold - updating coin Koala
+[2015-03-07 11:11:15.509] [INFO] Gold - updating coin Koala
+[2015-03-07 11:11:15.560] [INFO] Gold - updating coin Nugget
+[2015-03-07 11:11:15.666] [INFO] Gold - updating coin Panda
+[2015-03-07 11:11:16.793] [INFO] Gold - updating gold and silver
+[2015-03-07 11:21:14.804] [INFO] Gold - starting to scrap sites
+[2015-03-07 11:21:15.279] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 11:21:15.319] [INFO] Gold - updating coin Panda
+[2015-03-07 11:21:15.338] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 11:21:15.371] [INFO] Gold - updating coin African wildlife
+[2015-03-07 11:21:15.404] [INFO] Gold - updating coin Nugget
+[2015-03-07 11:21:15.421] [INFO] Gold - updating coin Koala
+[2015-03-07 11:21:15.571] [INFO] Gold - updating coin Koala
+[2015-03-07 11:21:15.598] [INFO] Gold - updating coin American Eagle
+[2015-03-07 11:21:15.651] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 11:21:15.669] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 11:21:16.811] [INFO] Gold - updating gold and silver
+[2015-03-07 11:31:14.810] [INFO] Gold - starting to scrap sites
+[2015-03-07 11:31:15.287] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 11:31:15.311] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 11:31:15.333] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 11:31:15.350] [INFO] Gold - updating coin Koala
+[2015-03-07 11:31:15.405] [INFO] Gold - updating coin African wildlife
+[2015-03-07 11:31:15.444] [INFO] Gold - updating coin Panda
+[2015-03-07 11:31:15.562] [INFO] Gold - updating coin American Eagle
+[2015-03-07 11:31:15.582] [INFO] Gold - updating coin Nugget
+[2015-03-07 11:31:15.603] [INFO] Gold - updating coin Koala
+[2015-03-07 11:31:15.647] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 11:31:16.830] [INFO] Gold - updating gold and silver
+[2015-03-07 11:41:14.829] [INFO] Gold - starting to scrap sites
+[2015-03-07 11:41:15.326] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 11:41:15.346] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 11:41:15.377] [INFO] Gold - updating coin Koala
+[2015-03-07 11:41:15.574] [INFO] Gold - updating coin Nugget
+[2015-03-07 11:41:15.606] [INFO] Gold - updating coin Koala
+[2015-03-07 11:41:15.637] [INFO] Gold - updating coin American Eagle
+[2015-03-07 11:41:15.661] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 11:41:15.678] [INFO] Gold - updating coin African wildlife
+[2015-03-07 11:41:15.696] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 11:41:15.721] [INFO] Gold - updating coin Panda
+[2015-03-07 11:41:16.850] [INFO] Gold - updating gold and silver
+[2015-03-07 11:51:14.848] [INFO] Gold - starting to scrap sites
+[2015-03-07 11:51:15.332] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 11:51:15.351] [INFO] Gold - updating coin Koala
+[2015-03-07 11:51:15.369] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 11:51:15.400] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 11:51:15.599] [INFO] Gold - updating coin Nugget
+[2015-03-07 11:51:15.622] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 11:51:15.644] [INFO] Gold - updating coin Koala
+[2015-03-07 11:51:15.698] [INFO] Gold - updating coin American Eagle
+[2015-03-07 11:51:15.722] [INFO] Gold - updating coin Panda
+[2015-03-07 11:51:15.741] [INFO] Gold - updating coin African wildlife
+[2015-03-07 11:51:16.867] [INFO] Gold - updating gold and silver
+[2015-03-07 12:01:14.867] [INFO] Gold - starting to scrap sites
+[2015-03-07 12:01:15.364] [INFO] Gold - updating coin Panda
+[2015-03-07 12:01:15.389] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 12:01:15.427] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 12:01:15.449] [INFO] Gold - updating coin African wildlife
+[2015-03-07 12:01:15.466] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 12:01:15.490] [INFO] Gold - updating coin American Eagle
+[2015-03-07 12:01:15.682] [INFO] Gold - updating coin Koala
+[2015-03-07 12:01:15.703] [INFO] Gold - updating coin Koala
+[2015-03-07 12:01:15.722] [INFO] Gold - updating coin Nugget
+[2015-03-07 12:01:15.741] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 12:01:16.885] [INFO] Gold - updating gold and silver
+[2015-03-07 12:11:14.885] [INFO] Gold - starting to scrap sites
+[2015-03-07 12:11:15.357] [INFO] Gold - updating coin Panda
+[2015-03-07 12:11:15.377] [INFO] Gold - updating coin Koala
+[2015-03-07 12:11:15.395] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 12:11:15.413] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 12:11:15.437] [INFO] Gold - updating coin Koala
+[2015-03-07 12:11:15.473] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 12:11:15.518] [INFO] Gold - updating coin African wildlife
+[2015-03-07 12:11:15.634] [INFO] Gold - updating coin Nugget
+[2015-03-07 12:11:15.683] [INFO] Gold - updating coin American Eagle
+[2015-03-07 12:11:15.713] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 12:11:16.906] [INFO] Gold - updating gold and silver
+[2015-03-07 13:03:43.508] [INFO] Gold - starting to scrap sites
+[2015-03-07 13:03:45.514] [INFO] Gold - updating gold and silver
+[2015-03-07 13:03:45.550] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 13:03:45.551] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 13:03:45.552] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 13:03:45.552] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 13:03:45.553] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 13:03:45.554] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 13:03:45.555] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 13:03:45.556] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 13:03:45.557] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 13:03:45.557] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 13:03:46.023] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 13:03:46.033] [INFO] Gold - updating coin Koala
+[2015-03-07 13:13:43.531] [INFO] Gold - starting to scrap sites
+[2015-03-07 13:13:44.064] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 13:13:44.155] [INFO] Gold - updating coin Koala
+[2015-03-07 13:13:44.204] [INFO] Gold - updating coin Koala
+[2015-03-07 13:13:44.234] [INFO] Gold - updating coin Nugget
+[2015-03-07 13:13:44.268] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 13:13:44.294] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 13:13:44.364] [INFO] Gold - updating coin African wildlife
+[2015-03-07 13:13:44.386] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 13:13:44.416] [INFO] Gold - updating coin American Eagle
+[2015-03-07 13:13:44.746] [INFO] Gold - updating coin Panda
+[2015-03-07 13:13:45.540] [INFO] Gold - updating gold and silver
+[2015-03-07 13:14:13.322] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 13:17:04.581] [INFO] Gold - updating coin Cheval Lunar 2
+[2015-03-07 13:18:28.420] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 13:19:22.678] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 13:19:43.250] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 13:19:57.337] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 13:23:43.552] [INFO] Gold - starting to scrap sites
+[2015-03-07 13:23:44.146] [INFO] Gold - updating coin Nugget
+[2015-03-07 13:23:44.164] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 13:23:44.185] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 13:23:44.205] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 13:23:44.222] [INFO] Gold - updating coin African wildlife
+[2015-03-07 13:23:44.270] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 13:23:44.309] [INFO] Gold - updating coin Koala
+[2015-03-07 13:23:44.348] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 13:23:44.366] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 13:23:44.390] [INFO] Gold - updating coin Koala
+[2015-03-07 13:23:44.416] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 13:23:44.438] [INFO] Gold - updating coin American Eagle
+[2015-03-07 13:23:45.437] [INFO] Gold - updating coin Panda
+[2015-03-07 13:23:45.559] [INFO] Gold - updating gold and silver
+[2015-03-07 13:33:43.556] [INFO] Gold - starting to scrap sites
+[2015-03-07 13:33:44.030] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 13:33:44.049] [INFO] Gold - updating coin African wildlife
+[2015-03-07 13:33:44.072] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 13:33:44.122] [INFO] Gold - updating coin Koala
+[2015-03-07 13:33:44.216] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 13:33:44.438] [INFO] Gold - updating coin Nugget
+[2015-03-07 13:33:44.462] [INFO] Gold - updating coin Koala
+[2015-03-07 13:33:44.490] [INFO] Gold - updating coin American Eagle
+[2015-03-07 13:33:44.637] [INFO] Gold - updating coin Panda
+[2015-03-07 13:33:44.657] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 13:33:44.679] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 13:33:44.697] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 13:33:44.715] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 13:33:45.576] [INFO] Gold - updating gold and silver
+[2015-03-07 13:43:43.578] [INFO] Gold - starting to scrap sites
+[2015-03-07 13:43:44.080] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 13:43:44.120] [INFO] Gold - updating coin Koala
+[2015-03-07 13:43:44.157] [INFO] Gold - updating coin Panda
+[2015-03-07 13:43:44.177] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 13:43:44.196] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 13:43:44.214] [INFO] Gold - updating coin African wildlife
+[2015-03-07 13:43:44.235] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 13:43:44.358] [INFO] Gold - updating coin Koala
+[2015-03-07 13:43:44.383] [INFO] Gold - updating coin Nugget
+[2015-03-07 13:43:44.403] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 13:43:44.421] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 13:43:44.481] [INFO] Gold - updating coin American Eagle
+[2015-03-07 13:43:44.510] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 13:43:45.595] [INFO] Gold - updating gold and silver
+[2015-03-07 13:53:43.596] [INFO] Gold - starting to scrap sites
+[2015-03-07 13:53:44.221] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 13:53:44.239] [INFO] Gold - updating coin Koala
+[2015-03-07 13:53:44.278] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 13:53:44.310] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 13:53:44.328] [INFO] Gold - updating coin Panda
+[2015-03-07 13:53:44.347] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 13:53:44.381] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 13:53:44.422] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 13:53:44.463] [INFO] Gold - updating coin African wildlife
+[2015-03-07 13:53:44.492] [INFO] Gold - updating coin American Eagle
+[2015-03-07 13:53:44.514] [INFO] Gold - updating coin Nugget
+[2015-03-07 13:53:44.560] [INFO] Gold - updating coin Koala
+[2015-03-07 13:53:44.588] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 13:53:45.612] [INFO] Gold - updating gold and silver
+[2015-03-07 14:03:43.613] [INFO] Gold - starting to scrap sites
+[2015-03-07 14:03:44.218] [INFO] Gold - updating coin Nugget
+[2015-03-07 14:03:44.247] [INFO] Gold - updating coin American Eagle
+[2015-03-07 14:03:44.277] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 14:03:44.320] [INFO] Gold - updating coin African wildlife
+[2015-03-07 14:03:44.339] [INFO] Gold - updating coin Koala
+[2015-03-07 14:03:44.363] [INFO] Gold - updating coin Panda
+[2015-03-07 14:03:44.386] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 14:03:44.404] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 14:03:44.422] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 14:03:44.464] [INFO] Gold - updating coin Koala
+[2015-03-07 14:03:44.483] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 14:03:44.515] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 14:03:45.632] [INFO] Gold - updating gold and silver
+[2015-03-07 14:04:28.504] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 14:13:43.634] [INFO] Gold - starting to scrap sites
+[2015-03-07 14:13:44.347] [INFO] Gold - updating coin Nugget
+[2015-03-07 14:13:44.378] [INFO] Gold - updating coin African wildlife
+[2015-03-07 14:13:44.400] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 14:13:44.425] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 14:13:44.453] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 14:13:44.545] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 14:13:44.569] [INFO] Gold - updating coin American Eagle
+[2015-03-07 14:13:44.592] [INFO] Gold - updating coin Koala
+[2015-03-07 14:13:44.640] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 14:13:44.663] [INFO] Gold - updating coin Panda
+[2015-03-07 14:13:44.685] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 14:13:44.720] [INFO] Gold - updating coin Koala
+[2015-03-07 14:13:45.034] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 14:13:45.653] [INFO] Gold - updating gold and silver
+[2015-03-07 14:23:43.651] [INFO] Gold - starting to scrap sites
+[2015-03-07 14:23:44.333] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 14:23:44.358] [INFO] Gold - updating coin Koala
+[2015-03-07 14:23:44.407] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 14:23:44.433] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 14:23:44.467] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 14:23:44.527] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 14:23:44.557] [INFO] Gold - updating coin Koala
+[2015-03-07 14:23:44.611] [INFO] Gold - updating coin Nugget
+[2015-03-07 14:23:44.642] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 14:23:44.682] [INFO] Gold - updating coin Panda
+[2015-03-07 14:23:44.716] [INFO] Gold - updating coin African wildlife
+[2015-03-07 14:23:44.757] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 14:23:45.670] [INFO] Gold - updating gold and silver
+[2015-03-07 14:23:47.567] [INFO] Gold - updating coin American Eagle
+[2015-03-07 14:33:43.671] [INFO] Gold - starting to scrap sites
+[2015-03-07 14:33:45.688] [INFO] Gold - updating gold and silver
+[2015-03-07 14:33:47.206] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 14:33:47.245] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 14:33:47.276] [INFO] Gold - updating coin Nugget
+[2015-03-07 14:33:47.328] [INFO] Gold - updating coin African wildlife
+[2015-03-07 14:33:47.401] [INFO] Gold - updating coin Koala
+[2015-03-07 14:33:47.440] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 14:33:47.828] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 14:33:47.862] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 14:33:47.892] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 14:33:47.950] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 14:33:48.049] [INFO] Gold - updating coin Panda
+[2015-03-07 14:33:48.153] [INFO] Gold - updating coin Koala
+[2015-03-07 14:33:48.552] [INFO] Gold - updating coin American Eagle
+[2015-03-07 14:43:43.690] [INFO] Gold - starting to scrap sites
+[2015-03-07 14:43:44.384] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 14:43:44.415] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 14:43:44.436] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 14:43:44.476] [INFO] Gold - updating coin Koala
+[2015-03-07 14:43:44.515] [INFO] Gold - updating coin African wildlife
+[2015-03-07 14:43:44.543] [INFO] Gold - updating coin Koala
+[2015-03-07 14:43:44.569] [INFO] Gold - updating coin American Eagle
+[2015-03-07 14:43:44.591] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 14:43:44.611] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 14:43:44.633] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 14:43:44.659] [INFO] Gold - updating coin Panda
+[2015-03-07 14:43:44.720] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 14:43:44.748] [INFO] Gold - updating coin Nugget
+[2015-03-07 14:43:45.708] [INFO] Gold - updating gold and silver
+[2015-03-07 14:53:43.708] [INFO] Gold - starting to scrap sites
+[2015-03-07 14:53:44.221] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 14:53:44.238] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 14:53:44.256] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 14:53:44.286] [INFO] Gold - updating coin Koala
+[2015-03-07 14:53:44.303] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 14:53:44.523] [INFO] Gold - updating coin Nugget
+[2015-03-07 14:53:44.543] [INFO] Gold - updating coin Panda
+[2015-03-07 14:53:44.561] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 14:53:44.595] [INFO] Gold - updating coin African wildlife
+[2015-03-07 14:53:44.613] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 14:53:44.648] [INFO] Gold - updating coin Koala
+[2015-03-07 14:53:44.675] [INFO] Gold - updating coin American Eagle
+[2015-03-07 14:53:44.720] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 14:53:45.726] [INFO] Gold - updating gold and silver
+[2015-03-07 15:03:43.727] [INFO] Gold - starting to scrap sites
+[2015-03-07 15:03:44.529] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 15:03:44.600] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 15:03:44.718] [INFO] Gold - updating coin Panda
+[2015-03-07 15:03:44.744] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 15:03:44.762] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 15:03:44.792] [INFO] Gold - updating coin African wildlife
+[2015-03-07 15:03:44.896] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 15:03:44.955] [INFO] Gold - updating coin Koala
+[2015-03-07 15:03:45.338] [INFO] Gold - updating coin Koala
+[2015-03-07 15:03:45.356] [INFO] Gold - updating coin Nugget
+[2015-03-07 15:03:45.534] [INFO] Gold - updating coin American Eagle
+[2015-03-07 15:03:45.559] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 15:03:45.585] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 15:03:45.745] [INFO] Gold - updating gold and silver
+[2015-03-07 15:13:43.746] [INFO] Gold - starting to scrap sites
+[2015-03-07 15:13:44.389] [INFO] Gold - updating coin Koala
+[2015-03-07 15:13:44.450] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 15:13:44.468] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 15:13:44.502] [INFO] Gold - updating coin African wildlife
+[2015-03-07 15:13:44.518] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 15:13:44.535] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 15:13:44.572] [INFO] Gold - updating coin Nugget
+[2015-03-07 15:13:44.595] [INFO] Gold - updating coin Koala
+[2015-03-07 15:13:44.634] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 15:13:44.665] [INFO] Gold - updating coin American Eagle
+[2015-03-07 15:13:44.683] [INFO] Gold - updating coin Panda
+[2015-03-07 15:13:44.700] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 15:13:44.809] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 15:13:45.765] [INFO] Gold - updating gold and silver
+[2015-03-07 15:23:43.765] [INFO] Gold - starting to scrap sites
+[2015-03-07 15:23:45.784] [INFO] Gold - updating gold and silver
+[2015-03-07 15:23:46.303] [INFO] Gold - updating coin Panda
+[2015-03-07 15:23:46.322] [INFO] Gold - updating coin Koala
+[2015-03-07 15:23:46.353] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 15:23:47.174] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 15:23:47.288] [INFO] Gold - updating coin African wildlife
+[2015-03-07 15:23:47.737] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 15:23:47.856] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 15:23:47.903] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 15:23:47.936] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 15:23:48.940] [INFO] Gold - updating coin Nugget
+[2015-03-07 15:23:49.087] [INFO] Gold - updating coin American Eagle
+[2015-03-07 15:23:49.127] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 15:23:52.895] [INFO] Gold - updating coin Koala
+[2015-03-07 15:33:43.785] [INFO] Gold - starting to scrap sites
+[2015-03-07 15:33:44.303] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 15:33:44.320] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 15:33:44.337] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 15:33:44.353] [INFO] Gold - updating coin Koala
+[2015-03-07 15:33:44.373] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 15:33:44.392] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 15:33:44.446] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 15:33:44.555] [INFO] Gold - updating coin Nugget
+[2015-03-07 15:33:44.576] [INFO] Gold - updating coin Koala
+[2015-03-07 15:33:44.607] [INFO] Gold - updating coin African wildlife
+[2015-03-07 15:33:44.628] [INFO] Gold - updating coin American Eagle
+[2015-03-07 15:33:44.644] [INFO] Gold - updating coin Panda
+[2015-03-07 15:33:44.672] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 15:33:45.802] [INFO] Gold - updating gold and silver
+[2015-03-07 15:43:43.804] [INFO] Gold - starting to scrap sites
+[2015-03-07 15:43:44.346] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 15:43:44.371] [INFO] Gold - updating coin African wildlife
+[2015-03-07 15:43:44.388] [INFO] Gold - updating coin Panda
+[2015-03-07 15:43:44.411] [INFO] Gold - updating coin American Eagle
+[2015-03-07 15:43:44.427] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 15:43:44.443] [INFO] Gold - updating coin Koala
+[2015-03-07 15:43:44.475] [INFO] Gold - updating coin Nugget
+[2015-03-07 15:43:44.505] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 15:43:44.524] [INFO] Gold - updating coin Koala
+[2015-03-07 15:43:44.555] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 15:43:44.601] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 15:43:44.647] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 15:43:44.667] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 15:43:45.823] [INFO] Gold - updating gold and silver
+[2015-03-07 15:53:43.822] [INFO] Gold - starting to scrap sites
+[2015-03-07 15:53:44.443] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 15:53:44.488] [INFO] Gold - updating coin Panda
+[2015-03-07 15:53:44.516] [INFO] Gold - updating coin Koala
+[2015-03-07 15:53:44.538] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 15:53:44.563] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 15:53:44.615] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 15:53:44.640] [INFO] Gold - updating coin African wildlife
+[2015-03-07 15:53:44.666] [INFO] Gold - updating coin Koala
+[2015-03-07 15:53:44.697] [INFO] Gold - updating coin Nugget
+[2015-03-07 15:53:44.777] [INFO] Gold - updating coin American Eagle
+[2015-03-07 15:53:44.798] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 15:53:44.818] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 15:53:44.853] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 15:53:45.842] [INFO] Gold - updating gold and silver
+[2015-03-07 16:03:43.841] [INFO] Gold - starting to scrap sites
+[2015-03-07 16:03:44.355] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 16:03:44.372] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 16:03:44.389] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 16:03:44.406] [INFO] Gold - updating coin Koala
+[2015-03-07 16:03:44.436] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 16:03:44.492] [INFO] Gold - updating coin American Eagle
+[2015-03-07 16:03:44.583] [INFO] Gold - updating coin Nugget
+[2015-03-07 16:03:44.627] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 16:03:44.670] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 16:03:44.689] [INFO] Gold - updating coin African wildlife
+[2015-03-07 16:03:44.708] [INFO] Gold - updating coin Koala
+[2015-03-07 16:03:44.768] [INFO] Gold - updating coin Panda
+[2015-03-07 16:03:44.785] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 16:03:45.860] [INFO] Gold - updating gold and silver
+[2015-03-07 16:13:43.860] [INFO] Gold - starting to scrap sites
+[2015-03-07 16:13:44.425] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 16:13:44.505] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 16:13:44.522] [INFO] Gold - updating coin African wildlife
+[2015-03-07 16:13:44.552] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 16:13:44.571] [INFO] Gold - updating coin Panda
+[2015-03-07 16:13:44.604] [INFO] Gold - updating coin Koala
+[2015-03-07 16:13:44.639] [INFO] Gold - updating coin Nugget
+[2015-03-07 16:13:44.658] [INFO] Gold - updating coin Koala
+[2015-03-07 16:13:44.685] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 16:13:44.723] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 16:13:44.747] [INFO] Gold - updating coin American Eagle
+[2015-03-07 16:13:44.763] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 16:13:44.781] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 16:13:45.878] [INFO] Gold - updating gold and silver
+[2015-03-07 16:23:43.878] [INFO] Gold - starting to scrap sites
+[2015-03-07 16:23:44.428] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 16:23:44.488] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 16:23:44.504] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 16:23:44.521] [INFO] Gold - updating coin Koala
+[2015-03-07 16:23:44.563] [INFO] Gold - updating coin African wildlife
+[2015-03-07 16:23:44.581] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 16:23:44.612] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 16:23:44.706] [INFO] Gold - updating coin Nugget
+[2015-03-07 16:23:44.753] [INFO] Gold - updating coin American Eagle
+[2015-03-07 16:23:44.776] [INFO] Gold - updating coin Koala
+[2015-03-07 16:23:44.800] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 16:23:44.820] [INFO] Gold - updating coin Panda
+[2015-03-07 16:23:44.837] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 16:23:45.896] [INFO] Gold - updating gold and silver
+[2015-03-07 16:54:49.503] [INFO] Gold - starting to scrap sites
+[2015-03-07 16:54:51.535] [INFO] Gold - updating gold and silver
+[2015-03-07 16:54:51.575] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 16:54:51.577] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 16:54:51.578] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 16:54:51.578] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 16:54:51.579] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 16:54:51.580] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 16:54:51.580] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 16:54:51.581] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 16:54:51.581] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 16:54:51.582] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 16:54:51.582] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 16:54:51.583] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 16:54:51.583] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 16:54:52.112] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 16:54:52.124] [INFO] Gold - updating coin Koala
+[2015-03-07 17:04:49.520] [INFO] Gold - starting to scrap sites
+[2015-03-07 17:04:50.106] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 17:04:50.143] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 17:04:50.191] [INFO] Gold - updating coin Nugget
+[2015-03-07 17:04:50.209] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 17:04:50.232] [INFO] Gold - updating coin Koala
+[2015-03-07 17:04:50.270] [INFO] Gold - updating coin American Eagle
+[2015-03-07 17:04:50.291] [INFO] Gold - updating coin Koala
+[2015-03-07 17:04:50.311] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 17:04:50.425] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 17:04:50.473] [INFO] Gold - updating coin Panda
+[2015-03-07 17:04:50.492] [INFO] Gold - updating coin African wildlife
+[2015-03-07 17:04:50.642] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 17:04:50.658] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 17:04:51.539] [INFO] Gold - updating gold and silver
+[2015-03-07 17:14:49.539] [INFO] Gold - starting to scrap sites
+[2015-03-07 17:14:50.078] [INFO] Gold - updating coin African wildlife
+[2015-03-07 17:14:50.145] [INFO] Gold - updating coin Koala
+[2015-03-07 17:14:50.163] [INFO] Gold - updating coin Panda
+[2015-03-07 17:14:50.184] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 17:14:50.200] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 17:14:50.235] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 17:14:50.254] [INFO] Gold - updating coin Nugget
+[2015-03-07 17:14:50.276] [INFO] Gold - updating coin American Eagle
+[2015-03-07 17:14:50.293] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 17:14:50.310] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 17:14:50.359] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 17:14:50.382] [INFO] Gold - updating coin Koala
+[2015-03-07 17:14:50.483] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 17:14:51.558] [INFO] Gold - updating gold and silver
+[2015-03-07 17:24:49.558] [INFO] Gold - starting to scrap sites
+[2015-03-07 17:24:50.110] [INFO] Gold - updating coin Nugget
+[2015-03-07 17:24:50.267] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 17:24:50.319] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 17:24:50.351] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 17:24:50.372] [INFO] Gold - updating coin Koala
+[2015-03-07 17:24:50.390] [INFO] Gold - updating coin Panda
+[2015-03-07 17:24:50.407] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 17:24:50.436] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 17:24:50.453] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 17:24:50.469] [INFO] Gold - updating coin African wildlife
+[2015-03-07 17:24:50.488] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 17:24:50.509] [INFO] Gold - updating coin Koala
+[2015-03-07 17:24:50.531] [INFO] Gold - updating coin American Eagle
+[2015-03-07 17:24:51.579] [INFO] Gold - updating gold and silver
+[2015-03-07 17:34:49.577] [INFO] Gold - starting to scrap sites
+[2015-03-07 17:34:50.159] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 17:34:50.200] [INFO] Gold - updating coin Panda
+[2015-03-07 17:34:50.219] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 17:34:50.377] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 17:34:50.399] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 17:34:50.419] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 17:34:50.440] [INFO] Gold - updating coin African wildlife
+[2015-03-07 17:34:50.465] [INFO] Gold - updating coin Koala
+[2015-03-07 17:34:50.499] [INFO] Gold - updating coin American Eagle
+[2015-03-07 17:34:50.554] [INFO] Gold - updating coin Koala
+[2015-03-07 17:34:50.584] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 17:34:50.608] [INFO] Gold - updating coin Nugget
+[2015-03-07 17:34:50.640] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 17:34:51.596] [INFO] Gold - updating gold and silver
+[2015-03-07 17:44:49.596] [INFO] Gold - starting to scrap sites
+[2015-03-07 17:44:50.132] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 17:44:50.183] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 17:44:50.212] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 17:44:50.236] [INFO] Gold - updating coin Panda
+[2015-03-07 17:44:50.290] [INFO] Gold - updating coin Koala
+[2015-03-07 17:44:50.328] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 17:44:50.355] [INFO] Gold - updating coin African wildlife
+[2015-03-07 17:44:50.388] [INFO] Gold - updating coin Nugget
+[2015-03-07 17:44:50.413] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 17:44:50.439] [INFO] Gold - updating coin American Eagle
+[2015-03-07 17:44:50.469] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 17:44:50.497] [INFO] Gold - updating coin Koala
+[2015-03-07 17:44:50.531] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 17:44:51.614] [INFO] Gold - updating gold and silver
+[2015-03-07 17:54:49.615] [INFO] Gold - starting to scrap sites
+[2015-03-07 17:54:50.267] [INFO] Gold - updating coin Koala
+[2015-03-07 17:54:50.284] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 17:54:50.305] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 17:54:50.322] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 17:54:50.560] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 17:54:50.585] [INFO] Gold - updating coin Nugget
+[2015-03-07 17:54:50.713] [INFO] Gold - updating coin Koala
+[2015-03-07 17:54:50.735] [INFO] Gold - updating coin Panda
+[2015-03-07 17:54:50.761] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 17:54:50.783] [INFO] Gold - updating coin African wildlife
+[2015-03-07 17:54:50.807] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 17:54:51.114] [INFO] Gold - updating coin American Eagle
+[2015-03-07 17:54:51.137] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 17:54:51.635] [INFO] Gold - updating gold and silver
+[2015-03-07 18:04:49.635] [INFO] Gold - starting to scrap sites
+[2015-03-07 18:04:50.384] [INFO] Gold - updating coin Nugget
+[2015-03-07 18:04:50.496] [INFO] Gold - updating coin Koala
+[2015-03-07 18:04:50.532] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 18:04:50.571] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 18:04:50.593] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 18:04:50.614] [INFO] Gold - updating coin African wildlife
+[2015-03-07 18:04:50.639] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 18:04:50.665] [INFO] Gold - updating coin Koala
+[2015-03-07 18:04:50.697] [INFO] Gold - updating coin American Eagle
+[2015-03-07 18:04:51.190] [INFO] Gold - updating coin Panda
+[2015-03-07 18:04:51.216] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:04:51.269] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:04:51.296] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:04:51.653] [INFO] Gold - updating gold and silver
+[2015-03-07 18:14:49.653] [INFO] Gold - starting to scrap sites
+[2015-03-07 18:14:50.531] [INFO] Gold - updating coin Nugget
+[2015-03-07 18:14:50.555] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 18:14:50.576] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:14:50.594] [INFO] Gold - updating coin Koala
+[2015-03-07 18:14:50.633] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 18:14:50.649] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:14:50.665] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 18:14:50.681] [INFO] Gold - updating coin Panda
+[2015-03-07 18:14:50.699] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 18:14:50.753] [INFO] Gold - updating coin Koala
+[2015-03-07 18:14:50.825] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:14:50.842] [INFO] Gold - updating coin American Eagle
+[2015-03-07 18:14:50.866] [INFO] Gold - updating coin African wildlife
+[2015-03-07 18:14:51.672] [INFO] Gold - updating gold and silver
+[2015-03-07 18:24:49.672] [INFO] Gold - starting to scrap sites
+[2015-03-07 18:24:50.394] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:24:50.413] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 18:24:50.431] [INFO] Gold - updating coin African wildlife
+[2015-03-07 18:24:50.452] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 18:24:50.470] [INFO] Gold - updating coin Koala
+[2015-03-07 18:24:50.502] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 18:24:50.542] [INFO] Gold - updating coin American Eagle
+[2015-03-07 18:24:50.560] [INFO] Gold - updating coin Nugget
+[2015-03-07 18:24:50.588] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 18:24:50.608] [INFO] Gold - updating coin Koala
+[2015-03-07 18:24:50.729] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:24:50.746] [INFO] Gold - updating coin Panda
+[2015-03-07 18:24:50.764] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:24:51.690] [INFO] Gold - updating gold and silver
+[2015-03-07 18:34:49.692] [INFO] Gold - starting to scrap sites
+[2015-03-07 18:34:50.428] [INFO] Gold - updating coin Nugget
+[2015-03-07 18:34:50.644] [INFO] Gold - updating coin Panda
+[2015-03-07 18:34:50.679] [INFO] Gold - updating coin African wildlife
+[2015-03-07 18:34:50.696] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 18:34:50.712] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 18:34:50.728] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:34:51.159] [INFO] Gold - updating coin American Eagle
+[2015-03-07 18:34:51.176] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 18:34:51.194] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:34:51.212] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 18:34:51.229] [INFO] Gold - updating coin Koala
+[2015-03-07 18:34:51.524] [INFO] Gold - updating coin Koala
+[2015-03-07 18:34:51.541] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:34:51.710] [INFO] Gold - updating gold and silver
+[2015-03-07 18:42:31.226] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 18:43:32.806] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 18:44:49.729] [INFO] Gold - starting to scrap sites
+[2015-03-07 18:44:50.399] [INFO] Gold - updating coin Koala
+[2015-03-07 18:44:50.426] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 18:44:50.492] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:44:50.508] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 18:44:50.525] [INFO] Gold - updating coin American Eagle
+[2015-03-07 18:44:50.544] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 18:44:50.563] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 18:44:50.583] [INFO] Gold - updating coin Koala
+[2015-03-07 18:44:50.601] [INFO] Gold - updating coin African wildlife
+[2015-03-07 18:44:50.618] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:44:50.635] [INFO] Gold - updating coin Panda
+[2015-03-07 18:44:50.652] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:44:50.668] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 18:44:50.687] [INFO] Gold - updating coin Nugget
+[2015-03-07 18:44:51.736] [INFO] Gold - updating gold and silver
+[2015-03-07 18:45:21.521] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 18:45:45.354] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 18:46:53.046] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 18:47:16.032] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 18:49:04.158] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:49:38.960] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:54:49.745] [INFO] Gold - starting to scrap sites
+[2015-03-07 18:54:50.297] [INFO] Gold - updating coin Nugget
+[2015-03-07 18:54:50.528] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:54:50.560] [INFO] Gold - updating coin Koala
+[2015-03-07 18:54:50.587] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 18:54:50.614] [INFO] Gold - updating coin American Eagle
+[2015-03-07 18:54:50.634] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 18:54:50.653] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:54:50.700] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 18:54:50.722] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 18:54:50.751] [INFO] Gold - updating coin Koala
+[2015-03-07 18:54:50.772] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 18:54:50.795] [INFO] Gold - updating coin African wildlife
+[2015-03-07 18:54:50.824] [INFO] Gold - updating coin Panda
+[2015-03-07 18:54:50.937] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:54:50.958] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 18:54:50.988] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 18:54:51.013] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 18:54:51.754] [INFO] Gold - updating gold and silver
+[2015-03-07 19:02:20.064] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 19:04:49.772] [INFO] Gold - starting to scrap sites
+[2015-03-07 19:04:49.996] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 19:04:50.523] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 19:04:50.547] [INFO] Gold - updating coin Nugget
+[2015-03-07 19:04:50.602] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:04:50.622] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:04:50.642] [INFO] Gold - updating coin Koala
+[2015-03-07 19:04:50.663] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 19:04:50.684] [INFO] Gold - updating coin Panda
+[2015-03-07 19:04:50.744] [INFO] Gold - updating coin Koala
+[2015-03-07 19:04:50.777] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 19:04:50.810] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:04:50.852] [INFO] Gold - updating coin American Eagle
+[2015-03-07 19:04:50.875] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 19:04:50.906] [INFO] Gold - updating coin African wildlife
+[2015-03-07 19:04:51.080] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 19:04:51.098] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 19:04:51.115] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:04:51.132] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 19:04:51.777] [INFO] Gold - updating gold and silver
+[2015-03-07 19:14:49.792] [INFO] Gold - starting to scrap sites
+[2015-03-07 19:14:50.126] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 19:14:50.601] [INFO] Gold - updating coin Koala
+[2015-03-07 19:14:50.643] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 19:14:50.660] [INFO] Gold - updating coin American Eagle
+[2015-03-07 19:14:50.676] [INFO] Gold - updating coin Panda
+[2015-03-07 19:14:50.692] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 19:14:50.708] [INFO] Gold - updating coin Koala
+[2015-03-07 19:14:50.725] [INFO] Gold - updating coin African wildlife
+[2015-03-07 19:14:50.743] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 19:14:50.762] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 19:14:50.810] [INFO] Gold - updating coin Nugget
+[2015-03-07 19:14:50.982] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:14:51.003] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 19:14:51.025] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:14:51.044] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 19:14:51.065] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:14:51.083] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 19:14:51.108] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:14:51.804] [INFO] Gold - updating gold and silver
+[2015-03-07 19:16:26.358] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 19:24:49.802] [INFO] Gold - starting to scrap sites
+[2015-03-07 19:24:50.436] [INFO] Gold - updating coin Nugget
+[2015-03-07 19:24:50.502] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 19:24:50.521] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 19:24:50.538] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 19:24:50.556] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:24:50.574] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 19:24:50.599] [INFO] Gold - updating coin American Eagle
+[2015-03-07 19:24:50.628] [INFO] Gold - updating coin Koala
+[2015-03-07 19:24:50.651] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 19:24:50.800] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:24:50.820] [INFO] Gold - updating coin African wildlife
+[2015-03-07 19:24:50.837] [INFO] Gold - updating coin Panda
+[2015-03-07 19:24:50.855] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:24:50.872] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:24:50.888] [INFO] Gold - updating coin Koala
+[2015-03-07 19:24:50.905] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 19:24:51.050] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 19:24:51.090] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 19:24:51.817] [INFO] Gold - updating gold and silver
+[2015-03-07 19:29:26.191] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 19:34:49.834] [INFO] Gold - starting to scrap sites
+[2015-03-07 19:34:50.375] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 19:34:50.393] [INFO] Gold - updating coin Koala
+[2015-03-07 19:34:50.409] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 19:34:50.441] [INFO] Gold - updating coin Panda
+[2015-03-07 19:34:50.619] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 19:34:50.663] [INFO] Gold - updating coin Nugget
+[2015-03-07 19:34:50.691] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 19:34:50.738] [INFO] Gold - updating coin American Eagle
+[2015-03-07 19:34:50.755] [INFO] Gold - updating coin Koala
+[2015-03-07 19:34:50.773] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 19:34:50.790] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:34:50.807] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 19:34:51.044] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 19:34:51.064] [INFO] Gold - updating coin African wildlife
+[2015-03-07 19:34:51.081] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:34:51.101] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 19:34:51.118] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:34:51.350] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:34:51.840] [INFO] Gold - updating gold and silver
+[2015-03-07 19:44:49.839] [INFO] Gold - starting to scrap sites
+[2015-03-07 19:44:50.497] [INFO] Gold - updating coin American Eagle
+[2015-03-07 19:44:50.521] [INFO] Gold - updating coin Koala
+[2015-03-07 19:44:50.548] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 19:44:50.569] [INFO] Gold - updating coin African wildlife
+[2015-03-07 19:44:50.587] [INFO] Gold - updating coin Panda
+[2015-03-07 19:44:50.608] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 19:44:50.624] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:44:50.660] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:44:50.689] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 19:44:50.708] [INFO] Gold - updating coin Koala
+[2015-03-07 19:44:50.755] [INFO] Gold - updating coin Nugget
+[2015-03-07 19:44:50.778] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 19:44:50.966] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 19:44:51.105] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 19:44:51.128] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:44:51.149] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 19:44:51.173] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:44:51.194] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 19:44:51.856] [INFO] Gold - updating gold and silver
+[2015-03-07 19:54:49.857] [INFO] Gold - starting to scrap sites
+[2015-03-07 19:54:50.609] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 19:54:50.669] [INFO] Gold - updating coin Nugget
+[2015-03-07 19:54:50.712] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 19:54:50.735] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 19:54:50.758] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 19:54:50.780] [INFO] Gold - updating coin Koala
+[2015-03-07 19:54:50.801] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:54:50.825] [INFO] Gold - updating coin Koala
+[2015-03-07 19:54:50.854] [INFO] Gold - updating coin American Eagle
+[2015-03-07 19:54:50.890] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:54:50.948] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 19:54:50.972] [INFO] Gold - updating coin Panda
+[2015-03-07 19:54:50.992] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:54:51.021] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 19:54:51.046] [INFO] Gold - updating coin African wildlife
+[2015-03-07 19:54:51.066] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 19:54:51.087] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 19:54:51.109] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 19:54:51.875] [INFO] Gold - updating gold and silver
+[2015-03-07 20:04:49.878] [INFO] Gold - starting to scrap sites
+[2015-03-07 20:04:50.482] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 20:04:50.524] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 20:04:50.545] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 20:04:50.564] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 20:04:50.581] [INFO] Gold - updating coin Koala
+[2015-03-07 20:04:50.645] [INFO] Gold - updating coin Nugget
+[2015-03-07 20:04:50.668] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 20:04:50.761] [INFO] Gold - updating coin American Eagle
+[2015-03-07 20:04:50.782] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 20:04:50.810] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 20:04:50.835] [INFO] Gold - updating coin Koala
+[2015-03-07 20:04:50.857] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 20:04:50.889] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 20:04:50.919] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 20:04:50.973] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 20:04:50.997] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 20:04:51.021] [INFO] Gold - updating coin African wildlife
+[2015-03-07 20:04:51.045] [INFO] Gold - updating coin Panda
+[2015-03-07 20:04:51.895] [INFO] Gold - updating gold and silver
+[2015-03-07 20:14:49.896] [INFO] Gold - starting to scrap sites
+[2015-03-07 20:14:50.457] [INFO] Gold - updating coin Nugget
+[2015-03-07 20:14:50.535] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 20:14:50.558] [INFO] Gold - updating coin Panda
+[2015-03-07 20:14:50.580] [INFO] Gold - updating coin American Eagle
+[2015-03-07 20:14:50.603] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 20:14:50.631] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 20:14:50.661] [INFO] Gold - updating coin Koala
+[2015-03-07 20:14:50.701] [INFO] Gold - updating coin Koala
+[2015-03-07 20:14:50.786] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 20:14:50.842] [INFO] Gold - updating coin African wildlife
+[2015-03-07 20:14:50.867] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 20:14:50.888] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 20:14:50.910] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 20:14:50.928] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 20:14:50.948] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 20:14:50.966] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 20:14:50.998] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 20:14:51.015] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 20:14:51.913] [INFO] Gold - updating gold and silver
+[2015-03-07 20:29:27.505] [INFO] Gold - starting to scrap sites
+[2015-03-07 20:29:29.528] [INFO] Gold - updating gold and silver
+[2015-03-07 20:29:29.547] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:29.548] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:29.548] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:29.549] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:29.549] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:29.550] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:29.551] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:29.551] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:29.551] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:29.552] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:29.552] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:29.553] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:29.553] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:29.553] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:29.554] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:29.555] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:29.556] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:29.556] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:29.556] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:29:30.020] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 20:29:30.075] [INFO] Gold - updating coin Koala
+[2015-03-07 20:39:27.538] [INFO] Gold - starting to scrap sites
+[2015-03-07 20:39:29.555] [INFO] Gold - updating gold and silver
+[2015-03-07 20:39:39.553] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:39:39.554] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:39:39.555] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:39:41.794] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:39:51.554] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:39:51.555] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:39:51.556] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:39:53.794] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:40:03.555] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:40:03.557] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:40:03.558] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:40:05.795] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:40:15.556] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:40:15.557] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:40:15.558] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:40:17.796] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:40:27.556] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:40:27.558] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:40:27.558] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:40:29.796] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:40:39.557] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:40:39.558] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:40:41.807] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-07 20:49:27.557] [INFO] Gold - starting to scrap sites
+[2015-03-07 20:49:28.178] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 20:49:28.201] [INFO] Gold - updating coin Panda
+[2015-03-07 20:49:28.223] [INFO] Gold - updating coin Koala
+[2015-03-07 20:49:28.247] [INFO] Gold - updating coin American Eagle
+[2015-03-07 20:49:28.267] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 20:49:28.286] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 20:49:28.311] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 20:49:28.329] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 20:49:28.350] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 20:49:28.404] [INFO] Gold - updating coin Nugget
+[2015-03-07 20:49:28.424] [INFO] Gold - updating coin Koala
+[2015-03-07 20:49:28.443] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 20:49:28.484] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 20:49:28.501] [INFO] Gold - updating coin African wildlife
+[2015-03-07 20:49:28.529] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 20:49:28.562] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 20:49:28.579] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 20:49:28.600] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 20:49:29.588] [INFO] Gold - updating gold and silver
+[2015-03-07 20:59:27.595] [INFO] Gold - starting to scrap sites
+[2015-03-07 20:59:28.285] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 20:59:28.310] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 20:59:28.328] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 20:59:28.353] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 20:59:28.410] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 20:59:28.431] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 20:59:28.451] [INFO] Gold - updating coin Panda
+[2015-03-07 20:59:28.471] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 20:59:28.492] [INFO] Gold - updating coin African wildlife
+[2015-03-07 20:59:28.511] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 20:59:28.532] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 20:59:28.571] [INFO] Gold - updating coin Koala
+[2015-03-07 20:59:28.597] [INFO] Gold - updating coin Nugget
+[2015-03-07 20:59:28.620] [INFO] Gold - updating coin Koala
+[2015-03-07 20:59:28.646] [INFO] Gold - updating coin American Eagle
+[2015-03-07 20:59:28.667] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 20:59:28.684] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 20:59:28.703] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 20:59:29.608] [INFO] Gold - updating gold and silver
+[2015-03-07 21:09:27.609] [INFO] Gold - starting to scrap sites
+[2015-03-07 21:09:28.199] [INFO] Gold - updating coin Panda
+[2015-03-07 21:09:28.220] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:09:28.238] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 21:09:28.256] [INFO] Gold - updating coin African wildlife
+[2015-03-07 21:09:28.273] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 21:09:28.345] [INFO] Gold - updating coin Koala
+[2015-03-07 21:09:28.368] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 21:09:28.403] [INFO] Gold - updating coin Nugget
+[2015-03-07 21:09:28.431] [INFO] Gold - updating coin Koala
+[2015-03-07 21:09:28.467] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 21:09:28.491] [INFO] Gold - updating coin American Eagle
+[2015-03-07 21:09:28.524] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 21:09:28.546] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 21:09:28.563] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 21:09:28.582] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:09:28.598] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:09:28.620] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:09:28.639] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 21:09:29.626] [INFO] Gold - updating gold and silver
+[2015-03-07 21:19:27.626] [INFO] Gold - starting to scrap sites
+[2015-03-07 21:19:28.237] [INFO] Gold - updating coin Nugget
+[2015-03-07 21:19:28.271] [INFO] Gold - updating coin Panda
+[2015-03-07 21:19:28.290] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 21:19:28.309] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 21:19:28.334] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 21:19:28.374] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:19:28.418] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:19:28.436] [INFO] Gold - updating coin African wildlife
+[2015-03-07 21:19:28.454] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 21:19:28.487] [INFO] Gold - updating coin Koala
+[2015-03-07 21:19:28.507] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 21:19:28.527] [INFO] Gold - updating coin Koala
+[2015-03-07 21:19:28.549] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 21:19:28.572] [INFO] Gold - updating coin American Eagle
+[2015-03-07 21:19:28.588] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:19:28.605] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 21:19:28.628] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:19:28.645] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 21:19:29.645] [INFO] Gold - updating gold and silver
+[2015-03-07 21:29:27.647] [INFO] Gold - starting to scrap sites
+[2015-03-07 21:29:28.154] [INFO] Gold - updating coin Koala
+[2015-03-07 21:29:28.194] [INFO] Gold - updating coin Panda
+[2015-03-07 21:29:28.215] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 21:29:28.248] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 21:29:28.268] [INFO] Gold - updating coin African wildlife
+[2015-03-07 21:29:28.287] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:29:28.303] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 21:29:28.335] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 21:29:28.399] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:29:28.431] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 21:29:28.455] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 21:29:28.500] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 21:29:28.531] [INFO] Gold - updating coin Nugget
+[2015-03-07 21:29:28.560] [INFO] Gold - updating coin American Eagle
+[2015-03-07 21:29:28.585] [INFO] Gold - updating coin Koala
+[2015-03-07 21:29:28.623] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:29:28.645] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:29:28.666] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 21:29:29.665] [INFO] Gold - updating gold and silver
+[2015-03-07 21:39:27.666] [INFO] Gold - starting to scrap sites
+[2015-03-07 21:39:28.284] [INFO] Gold - updating coin Koala
+[2015-03-07 21:39:28.309] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 21:39:28.334] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 21:39:28.358] [INFO] Gold - updating coin American Eagle
+[2015-03-07 21:39:28.383] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:39:28.406] [INFO] Gold - updating coin Panda
+[2015-03-07 21:39:28.491] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 21:39:28.517] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 21:39:28.543] [INFO] Gold - updating coin African wildlife
+[2015-03-07 21:39:28.649] [INFO] Gold - updating coin Nugget
+[2015-03-07 21:39:28.671] [INFO] Gold - updating coin Koala
+[2015-03-07 21:39:28.694] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 21:39:28.721] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 21:39:28.739] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:39:28.757] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 21:39:28.774] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:39:28.797] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 21:39:28.814] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:39:29.684] [INFO] Gold - updating gold and silver
+[2015-03-07 21:49:27.684] [INFO] Gold - starting to scrap sites
+[2015-03-07 21:49:28.225] [INFO] Gold - updating coin Nugget
+[2015-03-07 21:49:28.304] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 21:49:28.439] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:49:28.469] [INFO] Gold - updating coin Koala
+[2015-03-07 21:49:28.496] [INFO] Gold - updating coin Panda
+[2015-03-07 21:49:28.519] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 21:49:28.542] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 21:49:28.563] [INFO] Gold - updating coin Koala
+[2015-03-07 21:49:28.586] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 21:49:28.606] [INFO] Gold - updating coin African wildlife
+[2015-03-07 21:49:28.654] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 21:49:28.702] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 21:49:28.732] [INFO] Gold - updating coin American Eagle
+[2015-03-07 21:49:28.775] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 21:49:28.796] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:49:28.818] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:49:28.841] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:49:28.861] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 21:49:29.702] [INFO] Gold - updating gold and silver
+[2015-03-07 21:49:29.867] [ERROR] Gold - undefined doesn't seem to be a valid URL
+[2015-03-07 21:49:29.871] [ERROR] Gold - undefined doesn't seem to be a valid URL
+[2015-03-07 21:59:27.703] [INFO] Gold - starting to scrap sites
+[2015-03-07 21:59:28.311] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 21:59:28.336] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:59:28.362] [INFO] Gold - updating coin African wildlife
+[2015-03-07 21:59:28.385] [INFO] Gold - updating coin American Eagle
+[2015-03-07 21:59:28.457] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 21:59:28.479] [INFO] Gold - updating coin Panda
+[2015-03-07 21:59:28.500] [INFO] Gold - updating coin Koala
+[2015-03-07 21:59:28.532] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 21:59:28.582] [INFO] Gold - updating coin Nugget
+[2015-03-07 21:59:28.626] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 21:59:28.659] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 21:59:28.689] [INFO] Gold - updating coin Koala
+[2015-03-07 21:59:28.782] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:59:28.800] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 21:59:28.818] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:59:28.834] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 21:59:28.859] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 21:59:28.875] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 21:59:29.722] [INFO] Gold - updating gold and silver
+[2015-03-07 22:09:27.722] [INFO] Gold - starting to scrap sites
+[2015-03-07 22:09:28.463] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 22:09:28.480] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-07 22:09:28.499] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 22:09:28.518] [INFO] Gold - updating coin Panda
+[2015-03-07 22:09:28.551] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 22:09:28.570] [INFO] Gold - updating coin Maple Leaf
+[2015-03-07 22:09:28.627] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 22:09:28.679] [INFO] Gold - updating coin 50F Hercule
+[2015-03-07 22:09:28.697] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-07 22:09:28.714] [INFO] Gold - updating coin African wildlife
+[2015-03-07 22:09:28.732] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 22:09:28.756] [INFO] Gold - updating coin American Eagle
+[2015-03-07 22:09:28.782] [INFO] Gold - updating coin Krugerrand
+[2015-03-07 22:09:28.806] [INFO] Gold - updating coin Nugget
+[2015-03-07 22:09:28.823] [INFO] Gold - updating coin Philharmoniker
+[2015-03-07 22:09:28.841] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-07 22:09:28.870] [INFO] Gold - updating coin Koala
+[2015-03-07 22:09:28.889] [INFO] Gold - updating coin Koala
+[2015-03-07 22:09:29.743] [INFO] Gold - updating gold and silver
+[2015-03-08 04:15:40.505] [INFO] Gold - starting to scrap sites
+[2015-03-08 04:15:42.140] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:44.516] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:44.524] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:44.529] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:44.532] [INFO] Gold - updating gold and silver
+[2015-03-08 04:15:44.559] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:44.566] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:44.577] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:44.583] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:44.589] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:44.595] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:44.600] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:44.603] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:44.605] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:44.608] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:44.610] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:44.612] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:44.616] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:44.617] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:44.621] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 04:15:45.122] [INFO] Gold - updating coin Koala
+[2015-03-08 04:15:45.178] [INFO] Gold - updating coin Maple Leaf
+[2015-03-08 10:43:25.505] [INFO] Gold - starting to scrap sites
+[2015-03-08 10:43:27.520] [INFO] Gold - updating gold and silver
+[2015-03-08 10:43:33.586] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:33.587] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:33.587] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:33.588] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:33.589] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:33.589] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:33.590] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:33.592] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:33.592] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:33.593] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:33.594] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:33.594] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:33.595] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:33.595] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:33.596] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:33.596] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:33.597] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:33.597] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:33.598] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 10:43:34.037] [INFO] Gold - updating coin Maple Leaf
+[2015-03-08 10:43:34.045] [INFO] Gold - updating coin Koala
+[2015-03-08 10:53:25.053] [INFO] Gold - starting to scrap sites
+[2015-03-08 10:53:25.657] [INFO] Gold - updating coin Philharmoniker
+[2015-03-08 10:53:25.680] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 10:53:25.700] [INFO] Gold - updating coin Koala
+[2015-03-08 10:53:25.719] [INFO] Gold - updating coin Maple Leaf
+[2015-03-08 10:53:25.738] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 10:53:25.759] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 10:53:25.781] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 10:53:25.799] [INFO] Gold - updating coin Maple Leaf
+[2015-03-08 10:53:25.832] [INFO] Gold - updating coin Philharmoniker
+[2015-03-08 10:53:25.870] [INFO] Gold - updating coin Nugget
+[2015-03-08 10:53:25.896] [INFO] Gold - updating coin Krugerrand
+[2015-03-08 10:53:25.923] [INFO] Gold - updating coin American Eagle
+[2015-03-08 10:53:25.941] [INFO] Gold - updating coin African wildlife
+[2015-03-08 10:53:25.961] [INFO] Gold - updating coin Panda
+[2015-03-08 10:53:26.004] [INFO] Gold - updating coin Koala
+[2015-03-08 10:53:26.027] [INFO] Gold - updating coin 50F Hercule
+[2015-03-08 10:53:26.052] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-08 10:53:26.069] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-08 10:53:27.071] [INFO] Gold - updating gold and silver
+[2015-03-08 11:03:25.071] [INFO] Gold - starting to scrap sites
+[2015-03-08 11:03:25.587] [INFO] Gold - updating coin Panda
+[2015-03-08 11:03:25.625] [INFO] Gold - updating coin Maple Leaf
+[2015-03-08 11:03:25.661] [INFO] Gold - updating coin African wildlife
+[2015-03-08 11:03:25.679] [INFO] Gold - updating coin Philharmoniker
+[2015-03-08 11:03:25.700] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 11:03:25.749] [INFO] Gold - updating coin Koala
+[2015-03-08 11:03:25.781] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 11:03:25.799] [INFO] Gold - updating coin Koala
+[2015-03-08 11:03:25.823] [INFO] Gold - updating coin 50F Hercule
+[2015-03-08 11:03:25.841] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-08 11:03:25.858] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 11:03:25.885] [INFO] Gold - updating coin Maple Leaf
+[2015-03-08 11:03:25.909] [INFO] Gold - updating coin Nugget
+[2015-03-08 11:03:25.935] [INFO] Gold - updating coin American Eagle
+[2015-03-08 11:03:25.960] [INFO] Gold - updating coin Krugerrand
+[2015-03-08 11:03:25.986] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 11:03:26.004] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-08 11:03:26.025] [INFO] Gold - updating coin Philharmoniker
+[2015-03-08 11:03:27.089] [INFO] Gold - updating gold and silver
+[2015-03-08 11:13:25.089] [INFO] Gold - starting to scrap sites
+[2015-03-08 11:13:25.620] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-08 11:13:25.643] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 11:13:25.661] [INFO] Gold - updating coin African wildlife
+[2015-03-08 11:13:25.678] [INFO] Gold - updating coin Koala
+[2015-03-08 11:13:25.697] [INFO] Gold - updating coin Philharmoniker
+[2015-03-08 11:13:25.715] [INFO] Gold - updating coin Maple Leaf
+[2015-03-08 11:13:25.737] [INFO] Gold - updating coin Panda
+[2015-03-08 11:13:25.754] [INFO] Gold - updating coin Maple Leaf
+[2015-03-08 11:13:25.773] [INFO] Gold - updating coin Nugget
+[2015-03-08 11:13:25.793] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 11:13:25.826] [INFO] Gold - updating coin American Eagle
+[2015-03-08 11:13:25.843] [INFO] Gold - updating coin Philharmoniker
+[2015-03-08 11:13:25.873] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 11:13:25.896] [INFO] Gold - updating coin 50F Hercule
+[2015-03-08 11:13:25.954] [INFO] Gold - updating coin Koala
+[2015-03-08 11:13:25.977] [INFO] Gold - updating coin Krugerrand
+[2015-03-08 11:13:25.995] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 11:13:26.016] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-08 11:13:27.108] [INFO] Gold - updating gold and silver
+[2015-03-08 11:23:38.739] [INFO] Gold - starting to scrap sites
+[2015-03-08 11:23:39.325] [INFO] Gold - updating coin Koala
+[2015-03-08 11:23:39.350] [INFO] Gold - updating coin Philharmoniker
+[2015-03-08 11:23:39.419] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-08 11:23:39.443] [INFO] Gold - updating coin African wildlife
+[2015-03-08 11:23:39.471] [INFO] Gold - updating coin Maple Leaf
+[2015-03-08 11:23:39.492] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 11:23:39.539] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 11:23:39.561] [INFO] Gold - updating coin Maple Leaf
+[2015-03-08 11:23:39.634] [INFO] Gold - updating coin American Eagle
+[2015-03-08 11:23:39.657] [INFO] Gold - updating coin Nugget
+[2015-03-08 11:23:39.684] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 11:23:39.740] [INFO] Gold - updating coin Krugerrand
+[2015-03-08 11:23:39.761] [INFO] Gold - updating coin Panda
+[2015-03-08 11:23:39.784] [INFO] Gold - updating coin Philharmoniker
+[2015-03-08 11:23:39.805] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-08 11:23:39.835] [INFO] Gold - updating coin 50F Hercule
+[2015-03-08 11:23:39.867] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 11:23:39.890] [INFO] Gold - updating coin Koala
+[2015-03-08 11:23:40.754] [INFO] Gold - updating gold and silver
+[2015-03-08 11:33:38.756] [INFO] Gold - starting to scrap sites
+[2015-03-08 11:33:39.466] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 11:33:39.489] [INFO] Gold - updating coin Koala
+[2015-03-08 11:33:39.532] [INFO] Gold - updating coin African wildlife
+[2015-03-08 11:33:39.557] [INFO] Gold - updating coin Maple Leaf
+[2015-03-08 11:33:39.581] [INFO] Gold - updating coin Philharmoniker
+[2015-03-08 11:33:39.610] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 11:33:39.635] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 11:33:39.661] [INFO] Gold - updating coin Philharmoniker
+[2015-03-08 11:33:39.690] [INFO] Gold - updating coin Panda
+[2015-03-08 11:33:39.788] [INFO] Gold - updating coin Koala
+[2015-03-08 11:33:39.807] [INFO] Gold - updating coin Cheval Lunar II
+[2015-03-08 11:33:39.823] [INFO] Gold - updating coin Monster box 500 Philharmoniker
+[2015-03-08 11:33:39.866] [INFO] Gold - updating coin Maple Leaf
+[2015-03-08 11:33:39.891] [INFO] Gold - updating coin 50F Hercule
+[2015-03-08 11:33:39.913] [INFO] Gold - updating coin American Eagle
+[2015-03-08 11:33:39.932] [INFO] Gold - updating coin Nugget
+[2015-03-08 11:33:39.950] [INFO] Gold - updating coin Monster box 500 Maple Leaf
+[2015-03-08 11:33:39.974] [INFO] Gold - updating coin Krugerrand
+[2015-03-08 11:33:40.774] [INFO] Gold - updating gold and silver
+[2015-03-08 17:34:53.526] [INFO] Gold - starting to scrap sites
+[2015-03-08 17:34:55.541] [INFO] Gold - updating gold and silver
+[2015-03-08 17:34:59.074] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.079] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.087] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.091] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.093] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.097] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.098] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.100] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.102] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.104] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.105] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.107] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.109] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.111] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.113] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.116] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.117] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.120] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.122] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-08 17:34:59.568] [INFO] Gold - updating coin Koala
+[2015-03-08 17:35:02.509] [INFO] Gold - updating coin Maple Leaf
+[2015-03-12 07:26:26.514] [INFO] Gold - starting to scrap sites
+[2015-03-12 07:26:26.628] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:27.590] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.538] [INFO] Gold - updating gold and silver
+[2015-03-12 07:26:28.544] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.546] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.549] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.550] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.552] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.554] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.555] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.556] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.557] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.558] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.559] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.562] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.563] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.564] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.565] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.566] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.566] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.568] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.569] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.570] [ERROR] Gold - Mongo DB connection lost, trying to reconnect
+[2015-03-12 07:26:28.571] [ERROR] Gold - Mongo DB connection lost, trying to reconnect

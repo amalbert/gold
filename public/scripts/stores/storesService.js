@@ -3,7 +3,7 @@ var service = angular.module('Services');
 service.factory('StoresService', [ '$rootScope', '$http', '$q', function($rootScope, $http, $q) {
 	var service = {};
 
-	var url = 'http://172.18.9.63:8081/';
+	var url = 'http://localhost:8081/';
 
 	var success = function(deferred, data) {
     	deferred.resolve(data);

@@ -10,8 +10,12 @@ a {
 	cursor:pointer;
 }
 
+.blocPiece {
+	min-height:150px;
+}
+
 .top-bordered {
-	margin-bottom:10px;
+	margin-bottom:15px;
 }
 
 .top-bordered.gold {

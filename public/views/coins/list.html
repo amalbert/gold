@@ -5,31 +5,37 @@
         Chercher par nom <input type="text" ng-model="searchCoin" />
       </div>
       <div class="col-md-12">
-        Matière
+        <br/>Matière
         <div ng-repeat="(metal, selected) in filterMetal">
           <input type="checkbox" ng-model="filterMetal[metal]" /> {{metal}}
         </div>
       </div>
       <div class="col-md-12">
-      	Pays (<a ng-click="clickAll(filterCountry)">tous</a>)
+      	<br/>Pays (<a ng-click="clickAll(filterCountry)">tous</a>)
         <div ng-repeat="(country, selected) in filterCountry">
         	<input type="checkbox" ng-model="filterCountry[country]" /> <a ng-click="clickOnly(country, filterCountry);">{{country}}</a>
         </div>
       </div>
       <div class="col-md-12">
-        Magasins
+        <br/>Poids (<a ng-click="clickAll(filterWeight)">tous</a>)
+        <div ng-repeat="(weight, selected) in filterWeight">
+          <input type="checkbox" ng-model="filterWeight[weight]" /> <a ng-click="clickOnly(weight, filterWeight);">{{weight}}</a>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <br/>Magasins
         <div ng-repeat="store in stores">
           <input type="checkbox" ng-model="filterStore[store.name]" /> {{store.name}}
         </div>
       </div>
       <div class="col-md-12">
-        Cours de l'or
+        <br/>Cours de l'or
         <div>
           {{bourse.gold.current}} €
         </div>
       </div>
       <div class="col-md-12">
-        Cours de l'argent
+        <br/>Cours de l'argent
         <div>
           {{bourse.silver.current}} €
         </div>
@@ -38,9 +44,14 @@
   </div>
 
   <div class="col-md-10">
+     <div class="row">
+      <div class="col-md-12">
+        Trier par <select ng-model="orderCoins"><option value="bestPrice">Prix</option><option value="prime">Prime</option></select>
+      </div>
+    </div>
     <div class="row">
-      <div class="col-sm-6 col-md-4" ng-repeat="coin in coins | filter:searchCoin | byStore:filterStore" ng-if="filterCountry[coin.country]==true && filterMetal[coin.metal]==true">
-        <div class="row" style="margin-bottom:10px;padding-right:10px;">
+      <div class="col-sm-6 col-md-4 blocPiece" ng-repeat="coin in coins | filter:searchCoin | byStore:filterStore | orderBy:orderCoins" ng-if="filterCountry[coin.country]==true && filterMetal[coin.metal]==true && filterWeight[coin.weight]==true">
+        <div class="row">
           <div class="col-md-7 top-bordered" ng-class="{gold:coin.metal=='Or', silver:coin.metal=='Argent'}">
             <!-- <input type="checkbox" ng-model="coin.enabled" disabled="disabled" />  -->
             <a ng-href="#/coins/detail/{{coin._id}}">{{coin.name}} {{coin.weight}}</a>

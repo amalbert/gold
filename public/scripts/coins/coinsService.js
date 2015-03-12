@@ -11,7 +11,7 @@ service.factory('CoinsService', [ '$rootScope', '$http', '$q', function($rootSco
     	deferred.reject(error);
     };
 
-    var url = 'http://172.18.9.63:8081/';
+    var url = 'http://localhost:8081/';
 
 	service.list = function() {
 		var deferred = $q.defer();
@@ -99,8 +99,17 @@ service.factory('CoinsService', [ '$rootScope', '$http', '$q', function($rootSco
 		return bestPrice;
 	};
 
-	service.getPrime = function(price, spot) {
-		return (price - spot) / spot;
+	service.getPrime = function(price, spot, weight) {
+		var sWeight = weight.split(' ');
+		var baseOz = 1;
+		if (sWeight[1] == 'kg')
+			baseOz = 1000 / 31.1;
+		else if (sWeight[1] == 'g')
+			baseOz = 1 / 31.1;
+		baseOz *= sWeight[0];
+
+		return (price - spot * baseOz) / spot / baseOz;
+		
 	};
 
     return service;

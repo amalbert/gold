@@ -8,6 +8,7 @@ controllers.controller('CoinsController', [ '$scope', '$log', '$timeout', '$loca
         $scope.filterCountry = {};
         $scope.filterStore = {};
         $scope.filterMetal = {};
+        $scope.filterWeight = {};
 
         StoresService.list().then(function (data) {
             $scope.stores = data;
@@ -28,11 +29,12 @@ controllers.controller('CoinsController', [ '$scope', '$log', '$timeout', '$loca
                             $scope.coinsBycountries[coin.country] = [];*/
                             $scope.filterCountry[coin.country] = true;
                             $scope.filterMetal[coin.metal] = true;
+                            $scope.filterWeight[coin.weight] = true;
                             coin.bestPrice = CoinsService.findBestPrice(coin);
                             if (coin.metal === 'Or') {
-                                coin.prime = Math.round(CoinsService.getPrime(coin.bestPrice, bourse.gold.current) * 1000) / 10;
+                                coin.prime = Math.round(CoinsService.getPrime(coin.bestPrice, bourse.gold.current, coin.weight) * 1000) / 10;
                             } else if (coin.metal === 'Argent') {
-                                coin.prime = Math.round(CoinsService.getPrime(coin.bestPrice, bourse.silver.current) * 1000) / 10;
+                                coin.prime = Math.round(CoinsService.getPrime(coin.bestPrice, bourse.silver.current, coin.weight) * 1000) / 10;
                             }
                         //}
                         //$scope.coinsBycountries[coin.country].push(coin);
@@ -47,6 +49,8 @@ controllers.controller('CoinsController', [ '$scope', '$log', '$timeout', '$loca
                 $scope.coin = CoinsService.newCoin();
             }
         });
+
+        $scope.orderCoins = 'prime';
 
         $scope.clickOnly = function(value, list) {
             Object.keys(list).map(function(el) {
