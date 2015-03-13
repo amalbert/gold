@@ -1,103 +1,26 @@
 * {
 	font-family: 'Oswald', sans-serif;
 }
-header {
-	height:70px;
-	
-	background:#263238;
-}
 
 .logo {
 	font-size:2.3em;
 	font-weight:bold;
 	padding-top:13px;
-	font-family: 'Oswald', sans-serif;
 }
 
-a {
-	cursor:pointer;
+.pre-header {
+	background:#FF7043;
+	font-size:1.1em;
+	width:100%;
 }
 
-.bourse {
-	color:white;
-}
-
-.sideBar {
-	color:white;
-	background:#455A64;
-	min-height:1024px;
-
-}
-.sideBar a{
-	color:white;
-	text-decoration: underline;
-}
-
-.sideBar .title {
-	padding-top:2px;
-	background:#607D8B;
-	height:25px;
-	margin:5px 0;
-}
-
-
-.blocPiece {
-	min-height:150px;
-}
-
-.blocPiece .title {
-	font-size:1.2em;
-}
-
-.blocPiece:hover {
-	border: 3px dotted #EDCF5A;
-}
-
-.top-bordered {
-	margin-bottom:10px;
-}
-
-.bordered.gold {
-	border:3px solid #EDCF5A;
-}
-.bordered.silver {
-	border:3px solid #C5C3C4;
-}
-
-.top-bordered.gold {
-	border-right:none !important;
-	border-bottom:none !important;
-}
-
-.top-bordered.silver {
-	border-right:none !important;
-	border-bottom:none !important;
-}
-
-.price {
-	margin-left:-25px;
-}
-
-.price span {
-	font-weight:bold;
-	font-size:1.4em;
-	text-align:right;
-}
-
-.price.gold {
-	background:#CFD8DC;
-}
-
-.price.silver {
-	background:#CFD8DC;
-}
-
-.red {
-	border:1px solid red;
+.header {
+	height:70px;
+	background:#263238;
 }
 
 .color1 {
-	color:#C5C3C4;
+	color:#D84315;
 }
 .color2 {
 	color:white;
@@ -107,4 +30,107 @@ a {
 }
 .color4 {
 	color:white;
+}
+
+.nav {
+	margin-top:40px;
+}
+.nav ul li {
+	display:inline;
+	padding: 10px;
+	background-color: white;
+}
+
+.nav ul li a {
+	color: #263238;
+}
+.nav ul li a:hover {
+	color:#FF7043;
+}
+
+a {
+	cursor:pointer;
+}
+
+.bourse {
+	margin-top:25px;
+	color:white;
+	text-align: right;
+}
+
+.sideBar {
+/*	color:white;*/
+/*	background:#455A64;*/
+	min-height:768px;
+	border-right:1px solid #B0BEC5;
+}
+.sideBar a{
+	color:#455A64;
+	text-decoration: underline;
+}
+
+.sideBar .title {
+	padding:2px;
+	background:#FFFFFF;
+	margin-bottom:10px;
+}
+
+.sideBar .filter {
+	padding:7px;
+}
+
+.sideBar .inner-filter {
+	border:1px solid #E0E0E0;
+	padding:15px;
+}
+
+.orders {
+	margin-top:10px;
+}
+
+.blocPiece {
+	min-height:195px;
+	padding: 5px 20px 0 30px;
+}
+
+.blocPiece .image:hover {
+	box-shadow: 0 0 0 2px #B0BEC5;
+}
+
+.blocPiece .image {
+	border:1px solid #B0BEC5;
+	padding:10px;
+	text-align:center;
+}
+
+.blocPiece .image img {
+	max-width:100px;
+}
+
+.blocPiece .prime {
+	position: absolute;
+	top: 5px;
+	right: -5px;
+	background: #EDCF5A;
+	padding: 5px;
+	color:#455A64 !important;
+}
+
+.blocPiece .details {
+	position: absolute;
+	bottom: 5px;
+	left: -5px;
+	background: #B0BEC5;
+	padding: 5px;
+	color:#455A64;
+}
+
+.blocPiece .name {
+	text-align:center;
+	padding: 0;
+}
+
+.blocPiece .price {
+	text-align:center;
+	font-size: 1.5em;
 }

@@ -10,10 +10,10 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        redirectTo: '/coins/list'
+        redirectTo: '/coins/list/Or'
       })
       .when('/coins/list/:metal', {
-        templateUrl: 'views/coins/list.html',
+        templateUrl: 'views/coins/list2.html',
         controller: 'CoinsController'
       })
       .when('/admin/coins/new', {
@@ -25,7 +25,7 @@ angular
         controller: 'CoinsController'
       })
       .when('/coins/detail/:id', {
-        templateUrl: 'views/coins/detail.html',
+        templateUrl: 'views/coins/detail-admin.html',
         controller: 'CoinsController'
       })
       .when('/admin/stores/list', {

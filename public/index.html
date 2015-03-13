@@ -17,19 +17,39 @@
 
     <!-- Add your site or application content here -->
     <header>
-        <div>
+      <div>
+          <div class="pre-header">
             <div class="container">
-                <div class="row">
-                  <div class="col-md-6 logo">
-                    <span class="color1">INVEST</span><span class="color2">-</span><span class="color3">OR</span><span class="color4">.io</span>
-                  </div>
-                  <div class="col-md-6 bourse" ng-controller="BourseController">
-                    Dernière mise à jour des cours : {{bourse.lastUpdatedFormatted}}<br/>
-                    Or : {{bourse.gold.current}} € <br/> Argent : {{bourse.silver.current}} €
+              <div class="row">
+                <div class="col-md-12">
+                  COMPARATEUR DE PIECES D'OR ET D'ARGENT
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div>
+        <div class="header">
+          <div class="container">
+              <div class="row">
+                <div class="col-md-3 logo">
+                  <span class="color1">INVEST</span><span class="color2">-</span><span class="color3">OR</span><span class="color4">.io</span>
+                </div>
+                <div class="col-md-7">
+                  <div class="nav">
+                      <ul>
+                        <li><a ng-href="/#/coins/list/Or">Pièces d'or</a></li>
+                        <li><a ng-href="/#/coins/list/Argent">Pièces en argent</a></li>
+                      </ul>
                   </div>
                 </div>
-            </div>
-        </div>
+                <div class="col-md-2 bourse" ng-controller="BourseController">
+                  <!-- Dernière mise à jour des cours : {{bourse.lastUpdatedFormatted}}<br/> -->
+                  Or : <span class="color1">{{bourse.gold.current}} €</span>  / oz<br/> Argent : <span class="color1">{{bourse.silver.current}} €</span> / oz
+                </div>
+              </div>
+          </div>
+      </div>
     </header>
     
     <div class="container" ng-view>

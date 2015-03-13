@@ -3,9 +3,9 @@
     Liste des magasins <input type="text" ng-model="searchStore" />
   </div>
   <div class="col-md-12" ng-repeat="store in stores | filter:searchStore">
-    <input type="checkbox" ng-model="store.enabled" disabled="disabled" /> <a ng-href="#/stores/detail/{{store._id}}">{{store.name}}</a>
+    <input type="checkbox" ng-model="store.enabled" disabled="disabled" /> <a ng-href="#/admin/stores/detail/{{store._id}}">{{store.name}}</a>
   </div>
   <div class="col-md-12">
-    <a ng-href="#/stores/new">Ajouter</a>
+    <a ng-href="#/admin/stores/new">Ajouter</a>
   </div>
 </div>

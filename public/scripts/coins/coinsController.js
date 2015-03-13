@@ -27,26 +27,29 @@ controllers.controller('CoinsController', [ '$scope', '$log', '$timeout', '$loca
                     $scope.filterMetal[$routeParams.metal] = true;
 
                     $scope.coins.map(function(coin) {
-                            $scope.filterCountry[coin.country] = true;
-                            
-                            $scope.filterWeight[coin.weight] = true;
-                            coin.bestPrice = function(coin) {
-                                coin.currentBestPrice = CoinsService.findBestPrice(coin, $scope.filterStore);
-                                return coin.currentBestPrice;
+                        if ($routeParams.metal != coin.metal) {
+                            return;
+                        }
+                        $scope.filterCountry[coin.country] = true;
+                        
+                        $scope.filterWeight[coin.weight] = true;
+                        coin.bestPrice = function(coin) {
+                            coin.currentBestPrice = CoinsService.findBestPrice(coin, $scope.filterStore);
+                            return coin.currentBestPrice;
+                        }
+
+                        coin.prime = function(coin) {
+                            if (coin.metal === 'Or') {
+                                coin.currentBestPrime =  Math.round(CoinsService.getPrime(coin.bestPrice(coin), bourse.gold.current, coin.weight) * 1000) / 10;
+                            } else if (coin.metal === 'Argent') {
+                                coin.currentBestPrime =  Math.round(CoinsService.getPrime(coin.bestPrice(coin), bourse.silver.current, coin.weight) * 1000) / 10;
                             }
 
-                            coin.prime = function(coin) {
-                                if (coin.metal === 'Or') {
-                                    coin.currentBestPrime =  Math.round(CoinsService.getPrime(coin.bestPrice(coin), bourse.gold.current, coin.weight) * 1000) / 10;
-                                } else if (coin.metal === 'Argent') {
-                                    coin.currentBestPrime =  Math.round(CoinsService.getPrime(coin.bestPrice(coin), bourse.silver.current, coin.weight) * 1000) / 10;
-                                }
-
-                                return coin.currentBestPrime;
-                            }
+                            return coin.currentBestPrime;
+                        }
                     });
             	});
-            } else if ($location.url().lastIndexOf('/admin/coins/detail', 0) == 0) {
+            } else if ($location.url().lastIndexOf('/admin/coins/detail', 0) == 0 || $location.url().lastIndexOf('/coins/detail', 0) == 0) {
             	var id = $routeParams.id;
             	CoinsService.find(id).then(function (data) {
             		$scope.coin = data;
