@@ -36,6 +36,7 @@
 		setTimeout(function() { 
 			if (priced == false) {
 				log.error(year.uri + ' doesn\'t seem to be a valid URL');
+				year.price = undefined;
 				deferred.resolve(year);
 			}
 		}, 2000);
@@ -45,7 +46,7 @@
 
 	function getPageContent(url) {
 		var deferred = q.defer();
-		request(url, function(error, response, html) {
+		request({url:url, timeout:10000}, function(error, response, html) {
 			if (!error) {
 				deferred.resolve(cheerio.load(html));
 			} else {
@@ -116,6 +117,7 @@
 				coins.map(function(coin) {
 					if (coin.enabled) {
 						updateCoinPrices(coin, hashStore).then(function(coinUpdated) {
+							coinUpdated[0].lastUpdated = new Date();
 							coinService.save(coinUpdated[0]);
 							log.info('updating coin ' + coinUpdated[0].name);
 						}, logError());
@@ -135,6 +137,7 @@
 			});
 
 			updateCoinPrices(coin, hashStore).then(function(coinUpdated) {
+				coinUpdated[0].lastUpdated = new Date();
 				coinService.save(coinUpdated[0]).then(function(coinSaved) {
 					deferred.resolve(coinSaved);
 				});
@@ -154,13 +157,19 @@
 		getPageContent('http://www.24hgold.com/francais/cours_or_argent.aspx?money=EUR').then(function($) {
 				retreivePrice($, '#ctl00_BodyContent_lbGoldOnceEurValue', {}).then(function(year) {
 						bourse.gold.current = year.price;
-						bourse.gold.lastUpdated = new Date();
+						if (bourse.gold.historic.length > 3600)
+							bourse.gold.historic.splice(0, 1);
+						bourse.gold.historic.push({date:new Date(), price:year.price});
+						bourse.lastUpdated = new Date();
 						deferredGold.resolve(bourse);
 					}, logError(deferredGold));
 
 				retreivePrice($, '#ctl00_BodyContent_lbSilverOnceEurValue', {}).then(function(year) {
 						bourse.silver.current = year.price;
-						bourse.silver.lastUpdated = new Date();
+						if (bourse.silver.historic.length > 3600)
+							bourse.silver.historic.splice(0, 1);
+						bourse.silver.historic.push({date:new Date(), price:year.price});
+						bourse.lastUpdated = new Date();
 						deferredSilver.resolve(bourse);
 					}, logError(deferredSilver));
 			}, logError());

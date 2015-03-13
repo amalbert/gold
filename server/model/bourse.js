@@ -2,13 +2,14 @@ var mongoose = require('mongoose')
   , Schema = mongoose.Schema;
  
 var bourseSchema = new Schema({
+	lastUpdated: Date,
     gold: {
 	    	current: Number,
-	    	lastUpdated: Date
+	    	historic: [{date:Date, price:Number}]
     	},
     silver: {
 	    	current: Number,
-	    	lastUpdated: Date
+	    	historic: [{date:Date, price:Number}]
     	}
 });
 

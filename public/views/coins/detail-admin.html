@@ -30,7 +30,7 @@
 			</select>
 		</div>
 		<div class="col-md-12 form-group">
-			<div ng-repeat="year in price.years">
+			<div ng-repeat="year in price.years" ng-class="{red:year.price == undefined}">
 				<label>Année : </label> <input type="text" ng-model="year.year" class="form-control" /> ({{year.price}} €)<br/>
 				<label>URI : </label> http://{{price.store}}/<input type="text" ng-model="year.uri" class="form-control" size="50" />
 				<label>Images : </label> <input type="text" ng-model="year.imagesDir" class="form-control" size="20" />

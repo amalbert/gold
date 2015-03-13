@@ -2,9 +2,17 @@
 	var Coin = require('../model/coin');
 	var coinService = require('../services/coins');
 	var scrapService = require('../services/scrap');
+	var securityService = require('../services/security');
 
 	var api = {};
 	api.save = function(req, res) {
+		if (!securityService.isSecured(req)) {
+			res.status(401);
+			res.send('Forbidden');
+
+			return;
+		}
+		
 		var coin = new Coin(req.body);
 
 		//coinService.save(coin).then(function(coinUpdated) {

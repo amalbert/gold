@@ -20,37 +20,43 @@ controllers.controller('CoinsController', [ '$scope', '$log', '$timeout', '$loca
         BourseService.find().then(function (bourse) {
             $scope.bourse = bourse;
 
-            if ($location.url() == '/coins/list') {
+            if ($location.url().lastIndexOf('/coins/list', 0) == 0) {
             	CoinsService.list().then(function (data) {
             		$scope.coins = data;
-                    //$scope.coinsBycountries = {};
+                    
+                    $scope.filterMetal[$routeParams.metal] = true;
+
                     $scope.coins.map(function(coin) {
-                       /* if ($scope.coinsBycountries[coin.country] === undefined) {
-                            $scope.coinsBycountries[coin.country] = [];*/
                             $scope.filterCountry[coin.country] = true;
-                            $scope.filterMetal[coin.metal] = true;
+                            
                             $scope.filterWeight[coin.weight] = true;
-                            coin.bestPrice = CoinsService.findBestPrice(coin);
-                            if (coin.metal === 'Or') {
-                                coin.prime = Math.round(CoinsService.getPrime(coin.bestPrice, bourse.gold.current, coin.weight) * 1000) / 10;
-                            } else if (coin.metal === 'Argent') {
-                                coin.prime = Math.round(CoinsService.getPrime(coin.bestPrice, bourse.silver.current, coin.weight) * 1000) / 10;
+                            coin.bestPrice = function(coin) {
+                                coin.currentBestPrice = CoinsService.findBestPrice(coin, $scope.filterStore);
+                                return coin.currentBestPrice;
                             }
-                        //}
-                        //$scope.coinsBycountries[coin.country].push(coin);
+
+                            coin.prime = function(coin) {
+                                if (coin.metal === 'Or') {
+                                    coin.currentBestPrime =  Math.round(CoinsService.getPrime(coin.bestPrice(coin), bourse.gold.current, coin.weight) * 1000) / 10;
+                                } else if (coin.metal === 'Argent') {
+                                    coin.currentBestPrime =  Math.round(CoinsService.getPrime(coin.bestPrice(coin), bourse.silver.current, coin.weight) * 1000) / 10;
+                                }
+
+                                return coin.currentBestPrime;
+                            }
                     });
             	});
-            } else if ($location.url().lastIndexOf('/coins/detail', 0) == 0) {
+            } else if ($location.url().lastIndexOf('/admin/coins/detail', 0) == 0) {
             	var id = $routeParams.id;
             	CoinsService.find(id).then(function (data) {
             		$scope.coin = data;
             	});
-            } else if ($location.url() == '/coins/new') {
+            } else if ($location.url() == '/admin/coins/new') {
                 $scope.coin = CoinsService.newCoin();
             }
         });
 
-        $scope.orderCoins = 'prime';
+        $scope.orderCoins = 'currentBestPrime';
 
         $scope.clickOnly = function(value, list) {
             Object.keys(list).map(function(el) {

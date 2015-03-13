@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/site.css">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 
   </head>
   <body>
@@ -19,8 +20,12 @@
         <div>
             <div class="container">
                 <div class="row">
-                  <div class="col-md-12">
-                    INVEST-OR.io
+                  <div class="col-md-6 logo">
+                    <span class="color1">INVEST</span><span class="color2">-</span><span class="color3">OR</span><span class="color4">.io</span>
+                  </div>
+                  <div class="col-md-6 bourse" ng-controller="BourseController">
+                    Dernière mise à jour des cours : {{bourse.lastUpdatedFormatted}}<br/>
+                    Or : {{bourse.gold.current}} € <br/> Argent : {{bourse.silver.current}} €
                   </div>
                 </div>
             </div>
@@ -47,6 +52,7 @@
     <script src="bower_components/angular-resource/angular-resource.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/moment/min/moment.min.js"></script>
 
     <script src="scripts/app.js"></script>
     <script src="scripts/coins/coinsController.js"></script>
@@ -54,6 +60,7 @@
     <script src="scripts/coins/coinsFilter.js"></script>
     <script src="scripts/stores/storesController.js"></script>
     <script src="scripts/stores/storesService.js"></script>
+    <script src="scripts/bourse/bourseController.js"></script>
     <script src="scripts/bourse/bourseService.js"></script>
 </body>
 </html>

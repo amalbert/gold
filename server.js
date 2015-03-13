@@ -34,13 +34,18 @@ var scrapService = require('./server/services/scrap');
 	}
 ];*/
 
-function scrapeAll() {
+function scrapCoins() {
 	scrapService.scrap();
+}
+
+function scrapGold() {
 	scrapService.scrapGold();
 }
 
-scrapeAll();
-setInterval(scrapeAll, 600000); //10 min
+scrapCoins();
+scrapGold();
+setInterval(scrapCoins, 600000); //10 min
+setInterval(scrapGold, 60000); //1 min
 
 /*
 	function getAchatOrEtArgentPrice($, store) {

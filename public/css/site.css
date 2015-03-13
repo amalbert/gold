@@ -1,46 +1,110 @@
+* {
+	font-family: 'Oswald', sans-serif;
+}
 header {
 	height:70px;
-	font-size:2em;
+	
+	background:#263238;
+}
+
+.logo {
+	font-size:2.3em;
 	font-weight:bold;
-	background:#559ADD;
-	margin-bottom:20px;
+	padding-top:13px;
+	font-family: 'Oswald', sans-serif;
 }
 
 a {
 	cursor:pointer;
 }
 
+.bourse {
+	color:white;
+}
+
+.sideBar {
+	color:white;
+	background:#455A64;
+	min-height:1024px;
+
+}
+.sideBar a{
+	color:white;
+	text-decoration: underline;
+}
+
+.sideBar .title {
+	padding-top:2px;
+	background:#607D8B;
+	height:25px;
+	margin:5px 0;
+}
+
+
 .blocPiece {
 	min-height:150px;
 }
 
+.blocPiece .title {
+	font-size:1.2em;
+}
+
+.blocPiece:hover {
+	border: 3px dotted #EDCF5A;
+}
+
 .top-bordered {
-	margin-bottom:15px;
+	margin-bottom:10px;
+}
+
+.bordered.gold {
+	border:3px solid #EDCF5A;
+}
+.bordered.silver {
+	border:3px solid #C5C3C4;
 }
 
 .top-bordered.gold {
-	border-top:3px solid #EDCF5A;
+	border-right:none !important;
+	border-bottom:none !important;
 }
 
 .top-bordered.silver {
-	border-top:3px solid #C5C3C4;
+	border-right:none !important;
+	border-bottom:none !important;
 }
 
 .price {
-	margin-top:-10px;
 	margin-left:-25px;
 }
 
 .price span {
 	font-weight:bold;
-	font-size:1.2em;
+	font-size:1.4em;
 	text-align:right;
 }
 
 .price.gold {
-	background:#EDCF5A;
+	background:#CFD8DC;
 }
 
 .price.silver {
-	background:#C5C3C4;
+	background:#CFD8DC;
+}
+
+.red {
+	border:1px solid red;
+}
+
+.color1 {
+	color:#C5C3C4;
+}
+.color2 {
+	color:white;
+}
+.color3 {
+	color:#EDCF5A;
+}
+.color4 {
+	color:white;
 }

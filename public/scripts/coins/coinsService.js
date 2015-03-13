@@ -81,17 +81,19 @@ service.factory('CoinsService', [ '$rootScope', '$http', '$q', function($rootSco
 		coin.prices.push({ store: '',  years: [ { price: 0, year: 0, uri:''} ] });
 	};
 
-	service.findBestPrice = function(coin) {
+	service.findBestPrice = function(coin, stores) {
 		var bestPrice = 0;
 		for (var i = 0; i < coin.prices.length; i++) {
 			var price = coin.prices[i];
-			for (var j = 0; j < price.years.length; j++) {
-				var year = price.years[j];
+			if (stores[price.store]) {
+				for (var j = 0; j < price.years.length; j++) {
+					var year = price.years[j];
 
-				if (bestPrice == 0)
-					bestPrice = year.price;
-				if (bestPrice > year.price) {
-					bestPrice = year.price;
+					if (bestPrice == 0)
+						bestPrice = year.price;
+					if (bestPrice > year.price) {
+						bestPrice = year.price;
+					}
 				}
 			}
 		}

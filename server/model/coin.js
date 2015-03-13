@@ -18,7 +18,8 @@ var coinSchema = new Schema({
     ],
     weight: String,
     metal: String,
-    country: String
+    country: String,
+    lastUpdated: Date
 });
 
 module.exports = mongoose.model('Coin', coinSchema);

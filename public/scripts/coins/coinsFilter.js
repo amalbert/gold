@@ -21,6 +21,22 @@ filters.filter('byStore', [function() {
   };
 }]);
 
+filters.filter('priceByStore', [function() {
+  return function(prices, stores) {
+    if (!prices || !stores)
+      return [];
+    var filtered = [];
+
+    for (var k = 0; k < prices.length; k++) {
+      var price = prices[k];
+      if (stores[price.store] == true)
+          filtered.push(price);
+    }
+
+    return filtered;
+  };
+}]);
+
 /*{
     name:	'Krugerrand',
     enabled:true,

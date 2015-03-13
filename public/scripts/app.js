@@ -12,27 +12,31 @@ angular
       .when('/', {
         redirectTo: '/coins/list'
       })
-      .when('/coins/list', {
+      .when('/coins/list/:metal', {
         templateUrl: 'views/coins/list.html',
         controller: 'CoinsController'
       })
-      .when('/coins/new', {
-        templateUrl: 'views/coins/detail.html',
+      .when('/admin/coins/new', {
+        templateUrl: 'views/coins/detail-admin.html',
+        controller: 'CoinsController'
+      })
+      .when('/admin/coins/detail/:id', {
+        templateUrl: 'views/coins/detail-admin.html',
         controller: 'CoinsController'
       })
       .when('/coins/detail/:id', {
         templateUrl: 'views/coins/detail.html',
         controller: 'CoinsController'
       })
-      .when('/stores/list', {
+      .when('/admin/stores/list', {
         templateUrl: 'views/stores/list.html',
         controller: 'StoresController'
       })
-      .when('/stores/new', {
+      .when('/admin/stores/new', {
         templateUrl: 'views/stores/detail.html',
         controller: 'StoresController'
       })
-      .when('/stores/detail/:id', {
+      .when('/admin/stores/detail/:id', {
         templateUrl: 'views/stores/detail.html',
         controller: 'StoresController'
       })
