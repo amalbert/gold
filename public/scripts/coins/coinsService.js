@@ -85,7 +85,7 @@ service.factory('CoinsService', [ '$rootScope', '$http', '$q', function($rootSco
 		var bestPrice = 0;
 		for (var i = 0; i < coin.prices.length; i++) {
 			var price = coin.prices[i];
-			if (stores[price.store]) {
+			if (!stores || stores[price.store]) {
 				for (var j = 0; j < price.years.length; j++) {
 					var year = price.years[j];
 
@@ -99,6 +99,27 @@ service.factory('CoinsService', [ '$rootScope', '$http', '$q', function($rootSco
 		}
 
 		return bestPrice;
+	};
+
+	service.findBestStoreForCoin = function(coin, stores) {
+		var bestStore = null;
+		for (var i = 0; i < coin.prices.length; i++) {
+			var price = coin.prices[i];
+			if (!stores || stores[price.store]) {
+				for (var j = 0; j < price.years.length; j++) {
+					var year = price.years[j];
+
+					if (bestStore == null)
+						bestStore = price;
+					if (bestStore.years[0].price > year.price) {
+						bestStore = angular.copy(price);
+						bestStore.years = [year];
+					}
+				}
+			}
+		}
+
+		return bestStore;
 	};
 
 	service.getPrime = function(price, spot, weight) {

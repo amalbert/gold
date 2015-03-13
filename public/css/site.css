@@ -9,9 +9,10 @@
 }
 
 .pre-header {
-	background:#FF7043;
+	background:#455A64;
 	font-size:1.1em;
 	width:100%;
+	color:#ccc;
 }
 
 .header {
@@ -133,4 +134,24 @@ a {
 .blocPiece .price {
 	text-align:center;
 	font-size: 1.5em;
+}
+
+footer {
+	background:#FF7043;
+	padding:15px;
+}
+
+footer a {
+	color:#263238;
+}
+footer a:hover {
+	color:#263238;
+}
+footer .footer {
+	padding-left:30px;
+}
+
+.footer-bar {
+	border-right:1px solid #000;
+	min-height:100px;
 }

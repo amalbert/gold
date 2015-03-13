@@ -61,6 +61,10 @@ controllers.controller('CoinsController', [ '$scope', '$log', '$timeout', '$loca
 
         $scope.orderCoins = 'currentBestPrime';
 
+        $scope.findBestStoreForCoin = function(coin) {
+            return CoinsService.findBestStoreForCoin(coin, $scope.filterStore);
+        }
+
         $scope.clickOnly = function(value, list) {
             Object.keys(list).map(function(el) {
                 if (value == el) 

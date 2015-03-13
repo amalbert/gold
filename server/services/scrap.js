@@ -25,9 +25,12 @@
 		var deferred = q.defer();
 		var priced = false;
 		$(selector).filter(function(){
-			var data = $(this);
+			var data = $(this).text();
+
+			if (data.indexOf(',') > 0 && data.indexOf('.') > 0)
+				data = data.replace('.', '');
 			
-			year.price = parseFloat(data.text().replace(',', '.').replace('€', '').replace(/ /g, '').replace(/[^ -~]/g, ''));
+			year.price = parseFloat(data.replace(',', '.').replace('€', '').replace(/ /g, '').replace(/[^ -~]/g, ''));
 
 			deferred.resolve(year);
 			priced = true;

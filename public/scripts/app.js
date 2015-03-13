@@ -13,7 +13,7 @@ angular
         redirectTo: '/coins/list/Or'
       })
       .when('/coins/list/:metal', {
-        templateUrl: 'views/coins/list2.html',
+        templateUrl: 'views/coins/list.html',
         controller: 'CoinsController'
       })
       .when('/admin/coins/new', {
@@ -25,7 +25,7 @@ angular
         controller: 'CoinsController'
       })
       .when('/coins/detail/:id', {
-        templateUrl: 'views/coins/detail-admin.html',
+        templateUrl: 'views/coins/detail.html',
         controller: 'CoinsController'
       })
       .when('/admin/stores/list', {
