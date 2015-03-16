@@ -1,78 +1,58 @@
-<div class="row">
+<div class="row detail-piece" ng-if="coin">
+	<div class="col-md-12">
+		<h2>{{coin.name}} {{coin.weight}}</h2>
+		<div class="best-price"><small>A partir de </small><br/>{{bestStore.price}} €</div>
+	</div>
 	<div class="col-md-6">
 		<div class="row">
-			<div class="col-md-12">
-				<h2>{{coin.name}}</h2>
-				<img ng-src="images/{{coin.imagesDir}}/front.png" />
+			<div class="col-md-6" style="margin-top: 20px;">
+				<img ng-src="images/{{coin.imagesDir}}/front.png" ng-mouseleave="" ng-mouseover=""/>
+				<div class="best-prime"><small>Prime de </small><br/>{{coin.currentBestPrime}} %</div>
+			</div>
+			<div class="col-md-6">
+				<h3>Caractéristiques</h3>
+				<table class="col-md-12 table">
+					<tr>
+						<td>Metal</td><td>{{coin.metal}}</td>
+					</tr>
+					<tr>
+						<td>Pays</td><td>{{coin.country}}</td>
+					</tr>
+					<tr>
+						<td>Poids fin</td><td>{{coin.weight}}</td>
+					</tr>
+					<tr>
+						<td>Titre</td><td>{{coin.titre}}&permil;</td>
+					</tr>
+					<tr>
+						<td>Diamètre</td><td>{{coin.width}}mm</td>
+					</tr>
+					<tr>
+						<td>Epaisseur</td><td>{{coin.thickness}}mm</td>
+					</tr>
+				</table>
 			</div>
 		</div>
 	</div>
 
 	<div class="col-md-6">
 		<div class="row">
-			<div class="col-md-12">
-				<h3>{{findBestStoreForCoin(coin).store}}</h3>
-				
+			<div class="col-md-12 best-store">
+				<h3>Meilleur prix sur <a ng-href="{{getStore(bestStore.store).url}}/{{bestStore.coinUri}}" target="_blank">{{bestStore.store}}</a></h3>
 			</div>
 			<div class="col-md-12" data-ng-repeat="price in coin.prices">
 				<h3>{{price.store}}</h3>
-				<div class="row">
-					<div class="col-md-12" data-ng-repeat="year in price.years" ng-if="year.price != undefined">
-						{{year.year != 0 ? year.year : 'Autre'}} : {{year.price}} €
-						
-					</div>
+				<div class="row store-years">
+					<table class="col-md-12 table">
+					<tr><th>Année</th><th>Prix</th><th>Prime</th></tr>
+					<tr data-ng-repeat="year in price.years" ng-if="year.price != undefined" ng-class="{bestPrice:year.price == bestStore.price}">
+						<td>{{year.year != 0 ? year.year : 'indéfinie'}}</td>
+						<td><a ng-href="{{getStore(price.store).url}}/{{year.uri}}" target="_blank">{{year.price}} €</a></td>
+						<td>{{getPrime(coin, year.price)}}%</td>
+					</tr>
+					</table>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-
-<!-- <form class="form-inline">
-	<div class="row">
-		<div class="col-md-4 form-group">
-			<label>Nom du produit : </label> <input type="text" ng-model="coin.name" class="form-control" size="12" />
-		</div>
-		<div class="col-md-3 form-group">
-			<label>Poids : </label> <input type="text" ng-model="coin.weight" class="form-control" size="8"/>
-		</div>
-		<div class="col-md-3 form-group">
-			<label>Pays : </label> <input type="text" ng-model="coin.country" class="form-control" size="10" />
-		</div>
-		<div class="col-md-2 form-group">
-			<label>Active</label> <input type="checkbox" ng-model="coin.enabled" />
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-4 form-group">
-			<label>Metal : </label> <input type="text" ng-model="coin.metal" class="form-control" size="6" />
-		</div>
-		<label>Images : </label> <input type="text" ng-model="coin.imagesDir" class="form-control" size="20" />
-	</div>
-	<div class="row">
-		
-	</div>
-	<div ng-repeat="price in coin.prices" class="row">
-		<div class="col-md-12 form-group">
-			<label>Magasin : </label> 
-			<select ng-model="price.store" class="form-control">
-				<option ng-repeat="store in stores" ng-if="store.enabled" value="{{store.name}}" ng-selected="store.name == price.store">{{store.name}}</option>
-			</select>
-		</div>
-		<div class="col-md-12 form-group">
-			<div ng-repeat="year in price.years" ng-class="{red:year.price == undefined}">
-				<label>Année : </label> <input type="text" ng-model="year.year" class="form-control" /> ({{year.price}} €)<br/>
-				<label>URI : </label> http://{{price.store}}/<input type="text" ng-model="year.uri" class="form-control" size="50" />
-				<label>Images : </label> <input type="text" ng-model="year.imagesDir" class="form-control" size="20" />
-			</div>
-		</div>
-		<div class="col-md-12">
-			<a ng-click="addYear(price)">Ajouter une année</a>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-12">
-			<a ng-click="addStore(coin)">Ajouter un magasin</a>
-		</div>
-	</div>
-	<input type="submit" ng-click="save(coin)"/>
-</form> -->

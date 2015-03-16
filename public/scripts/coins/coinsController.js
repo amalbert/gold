@@ -15,55 +15,65 @@ controllers.controller('CoinsController', [ '$scope', '$log', '$timeout', '$loca
             $scope.stores.map(function(store) {
                 $scope.filterStore[store.name] = true;
             });
-        });
 
-        BourseService.find().then(function (bourse) {
-            $scope.bourse = bourse;
+            BourseService.find().then(function (bourse) {
+                $scope.bourse = bourse;
 
-            if ($location.url().lastIndexOf('/coins/list', 0) == 0) {
-            	CoinsService.list().then(function (data) {
-            		$scope.coins = data;
-                    
-                    $scope.filterMetal[$routeParams.metal] = true;
-
-                    $scope.coins.map(function(coin) {
-                        if ($routeParams.metal != coin.metal) {
-                            return;
-                        }
-                        $scope.filterCountry[coin.country] = true;
+                if ($location.url().lastIndexOf('/coins/list', 0) == 0) {
+                	CoinsService.list().then(function (data) {
+                		$scope.coins = data;
                         
-                        $scope.filterWeight[coin.weight] = true;
-                        coin.bestPrice = function(coin) {
-                            coin.currentBestPrice = CoinsService.findBestPrice(coin, $scope.filterStore);
-                            return coin.currentBestPrice;
-                        }
+                        $scope.filterMetal[$routeParams.metal] = true;
 
-                        coin.prime = function(coin) {
-                            if (coin.metal === 'Or') {
-                                coin.currentBestPrime =  Math.round(CoinsService.getPrime(coin.bestPrice(coin), bourse.gold.current, coin.weight) * 1000) / 10;
-                            } else if (coin.metal === 'Argent') {
-                                coin.currentBestPrime =  Math.round(CoinsService.getPrime(coin.bestPrice(coin), bourse.silver.current, coin.weight) * 1000) / 10;
+                        $scope.coins.map(function(coin) {
+                            if ($routeParams.metal != coin.metal) {
+                                return;
+                            }
+                            $scope.filterCountry[coin.country] = true;
+                            
+                            $scope.filterWeight[coin.weight] = true;
+                            coin.bestPrice = function(coin) {
+                                coin.currentBestPrice = CoinsService.findBestPrice(coin, $scope.filterStore);
+                                return coin.currentBestPrice;
                             }
 
-                            return coin.currentBestPrime;
-                        }
+                            coin.prime = function(coin) {
+                                coin.currentBestPrime =  $scope.getPrime(coin, coin.bestPrice(coin));
+
+                                return coin.currentBestPrime;
+                            }
+                        });
+                	});
+                } else if ($location.url().lastIndexOf('/admin/coins/detail', 0) == 0 || $location.url().lastIndexOf('/coins/detail', 0) == 0) {
+                	var id = $routeParams.id;
+                	CoinsService.find(id).then(function (data) {
+                		$scope.coin = data;
+                        $scope.bestStore = CoinsService.findBestStoreForCoin(data, $scope.filterStore);
+                        $scope.coin.currentBestPrice = CoinsService.findBestPrice($scope.coin, $scope.filterStore);
+                        $scope.coin.currentBestPrime =  $scope.getPrime($scope.coin, $scope.coin.currentBestPrice);
                     });
-            	});
-            } else if ($location.url().lastIndexOf('/admin/coins/detail', 0) == 0 || $location.url().lastIndexOf('/coins/detail', 0) == 0) {
-            	var id = $routeParams.id;
-            	CoinsService.find(id).then(function (data) {
-            		$scope.coin = data;
-            	});
-            } else if ($location.url() == '/admin/coins/new') {
-                $scope.coin = CoinsService.newCoin();
-            }
+                } else if ($location.url() == '/admin/coins/new') {
+                    $scope.coin = CoinsService.newCoin();
+                }
+            });
         });
 
         $scope.orderCoins = 'currentBestPrime';
 
-        $scope.findBestStoreForCoin = function(coin) {
-            return CoinsService.findBestStoreForCoin(coin, $scope.filterStore);
-        }
+        $scope.getPrime = function(coin, price) {
+            var spot = $scope.bourse.gold.current;
+            if (coin.metal == 'Argent')
+                spot = $scope.bourse.silver.current;
+
+            return CoinsService.getPrime(price, spot, coin.weight);
+        };
+
+        $scope.getStore = function(storeName) {
+            for (var i = 0; i <  $scope.stores.length; i++) {
+                if ($scope.stores[i].name == storeName)
+                    return $scope.stores[i];
+            }
+        };
 
         $scope.clickOnly = function(value, list) {
             Object.keys(list).map(function(el) {
@@ -73,13 +83,13 @@ controllers.controller('CoinsController', [ '$scope', '$log', '$timeout', '$loca
                     list[el] = false;
 
             })
-        }
+        };
 
         $scope.clickAll = function(list) {
             Object.keys(list).map(function(el) {
                 list[el] = true;
             })
-        }
+        };
 
         $scope.addYear = function(store) {
             CoinsService.addYear(store);
@@ -93,6 +103,6 @@ controllers.controller('CoinsController', [ '$scope', '$log', '$timeout', '$loca
         	CoinsService.save(coin).then(function (data) {
         		$scope.coin = data;
         	});
-        }
+        };
 
  } ]);

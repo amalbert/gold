@@ -64,7 +64,7 @@
             Magasins (<a ng-click="clickAll(filterStore)">tous</a>)
           </div>
           <div ng-repeat="store in stores">
-            <input type="checkbox" ng-model="filterStore[store.name]" /> {{store.name}}
+            <input type="checkbox" ng-model="filterStore[store.name]" /> <a ng-click="clickOnly(store.name, filterStore);">{{store.name}}</a>
           </div>
         </div>
       </div>
@@ -87,27 +87,6 @@
       </div>
     </div>
 
-    <!-- <div class="row">
-      <div class="col-sm-6 col-md-4 blocPiece" ng-repeat="coin in coins | filter:searchCoin | byStore:filterStore | orderBy:orderCoins" ng-if="filterCountry[coin.country]==true && filterMetal[coin.metal]==true && filterWeight[coin.weight]==true">
-        <div class="row">
-          <div class="col-md-12 top-bordered title" ng-class="{gold:coin.metal=='Or', silver:coin.metal=='Argent'}">
-            <input type="checkbox" ng-model="coin.enabled" disabled="disabled" />
-            <a ng-href="#/coins/detail/{{coin._id}}">{{coin.name}} {{coin.weight}}</a>
-          </div>
-          <div class="col-md-7" ng-class="{gold:coin.metal=='Or', silver:coin.metal=='Argent'}">
-            <img ng-src="images/{{coin.imagesDir}}/front.png" width="100"/>
-          </div>
-          <div class="col-md-5 bordered top-bordered price" ng-class="{gold:coin.metal=='Or', silver:coin.metal=='Argent'}">
-            <span>{{coin.bestPrice(coin)}} €</span><br/>Prime : {{coin.prime(coin)}}%<br/><br/>
-            Métal : {{coin.metal}}
-          </div>
-        </div>
-      </div>
-      <div class="col-md-12">
-        <a ng-href="#/admin/coins/new">Ajouter</a>
-      </div>
-    </div> -->
-
     <div class="row">
       <div class="col-sm-4 col-md-3 blocPiece" ng-repeat="coin in coins | filter:searchCoin | byStore:filterStore | orderBy:orderCoins" ng-if="filterCountry[coin.country]==true && filterMetal[coin.metal]==true && filterWeight[coin.weight]==true">
         <div class="row">
@@ -119,7 +98,7 @@
             </div>
           </a>
           <div class="col-md-12 name">
-            {{coin.name}} ( {{coin.weight}} )
+            {{coin.name}} ({{coin.weight}})
           </div>
           <div class="col-md-12 price color1">
             {{coin.bestPrice(coin)}} €

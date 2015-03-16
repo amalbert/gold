@@ -102,18 +102,18 @@ service.factory('CoinsService', [ '$rootScope', '$http', '$q', function($rootSco
 	};
 
 	service.findBestStoreForCoin = function(coin, stores) {
-		var bestStore = null;
+		var bestStore = {price:0};
 		for (var i = 0; i < coin.prices.length; i++) {
 			var price = coin.prices[i];
 			if (!stores || stores[price.store]) {
 				for (var j = 0; j < price.years.length; j++) {
 					var year = price.years[j];
 
-					if (bestStore == null)
-						bestStore = price;
-					if (bestStore.years[0].price > year.price) {
-						bestStore = angular.copy(price);
-						bestStore.years = [year];
+					if (bestStore.price > year.price || bestStore.price == 0) {
+						bestStore.price = year.price;
+						bestStore.year = year.year;
+						bestStore.store = price.store;
+						bestStore.coinUri = year.uri;
 					}
 				}
 			}
@@ -131,7 +131,7 @@ service.factory('CoinsService', [ '$rootScope', '$http', '$q', function($rootSco
 			baseOz = 1 / 31.1;
 		baseOz *= sWeight[0];
 
-		return (price - spot * baseOz) / spot / baseOz;
+		return Math.round(((price - spot * baseOz) / spot / baseOz) * 1000) / 10;
 		
 	};
 

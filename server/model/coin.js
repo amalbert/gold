@@ -18,6 +18,10 @@ var coinSchema = new Schema({
     ],
     weight: String,
     metal: String,
+    description:String,
+    width:Number,
+    thickness:Number,
+    titre:Number,
     country: String,
     lastUpdated: Date
 });

@@ -44,8 +44,8 @@ function scrapGold() {
 
 scrapCoins();
 scrapGold();
-setInterval(scrapCoins, 600000); //10 min
-setInterval(scrapGold, 60000); //1 min
+setInterval(scrapCoins, 60000); //1 min
+setInterval(scrapGold, 10000); //10 s
 
 /*
 	function getAchatOrEtArgentPrice($, store) {

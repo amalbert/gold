@@ -100,7 +100,7 @@ a {
 
 .blocPiece .image {
 	border:1px solid #B0BEC5;
-	padding:10px;
+	padding:5px;
 	text-align:center;
 }
 
@@ -134,6 +134,50 @@ a {
 .blocPiece .price {
 	text-align:center;
 	font-size: 1.5em;
+}
+
+.detail-piece img {
+	max-width:200px;
+}
+
+.best-price {
+	position: absolute;
+	top: 1px;
+	right: 185px;
+	font-weight: 700;
+	background: #D84315;
+	color: white;
+	font-size: 1.6em;
+	padding: 0px 8px 6px 10px;
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+}
+.best-price small, .best-prime small {
+	font-size: 65%;
+}
+
+tr.bestPrice {
+	background: #FF7043;
+	font-weight: 700;
+}
+
+tr.bestPrice a {
+	color:white;
+}
+
+.best-prime {
+	position: absolute;
+	bottom: -25px;
+	left: -10px;
+	font-weight: 700;
+	background: #EDCF5A;
+	color: #455A64;
+	font-size: 1.6em;
+	padding: 0px 8px 6px 10px;
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7); 
+}
+
+.store-years {
+	padding-left: 15px;
 }
 
 footer {
