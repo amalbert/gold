@@ -144,7 +144,6 @@ a {
 	position: absolute;
 	top: 1px;
 	right: 185px;
-	font-weight: 700;
 	background: #D84315;
 	color: white;
 	font-size: 1.6em;
@@ -178,6 +177,12 @@ tr.bestPrice a {
 
 .store-years {
 	padding-left: 15px;
+}
+
+.store-details {
+	border: 1px solid grey;
+	margin-bottom:15px;
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
 }
 
 footer {

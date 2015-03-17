@@ -40,7 +40,7 @@
 			<div class="col-md-12 best-store">
 				<h3>Meilleur prix sur <a ng-href="{{getStore(bestStore.store).url}}/{{bestStore.coinUri}}" target="_blank">{{bestStore.store}}</a></h3>
 			</div>
-			<div class="col-md-12" data-ng-repeat="price in coin.prices">
+			<div class="col-md-12 store-details" data-ng-repeat="price in coin.prices">
 				<h3>{{price.store}}</h3>
 				<div class="row store-years">
 					<table class="col-md-12 table">
