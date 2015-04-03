@@ -104,8 +104,18 @@ a {
 	text-align:center;
 }
 
+.blocPiece .image.store {
+	min-height:300px;
+}
+
+.blocPiece .image.store h2 {
+	font-size:1.2em;
+	margin: 10px 0 10px 0;
+}
+
 .blocPiece .image img {
 	max-width:100px;
+	max-height: 100px;
 }
 
 .blocPiece .prime {
@@ -132,8 +142,8 @@ a {
 }
 
 .blocPiece .price {
-	text-align:center;
 	font-size: 1.5em;
+	text-align: center;
 }
 
 .detail-piece img {
@@ -183,6 +193,30 @@ tr.bestPrice a {
 	border: 1px solid grey;
 	margin-bottom:15px;
 	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+}
+
+.blocPiece .bestPrice {
+	position: absolute;
+	top: 5px;
+	left: 123px;
+	background: #EDCF5A;
+	padding: 5px;
+	color:#455A64 !important;
+}
+
+.blocPiece .bestPrime {
+position: absolute;
+bottom: 42px;
+right: 117px;
+background: #E7663F;
+padding: 5px;
+/* color: #455A64 !important; */
+font-size: 1.2em;
+color: white;
+}
+
+.coinPreview {
+	min-height: 135px;
 }
 
 footer {

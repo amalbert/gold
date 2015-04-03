@@ -1,33 +1,6 @@
  <div class="row">
   <div class="col-md-2 sideBar">
     <div class="row">
-      <!-- <div class="col-md-12">
-        Chercher par nom <input type="text" ng-model="searchCoin" class="form-control"/>
-      </div>
-      <div class="col-md-12 title">
-      	Pays (<a ng-click="clickAll(filterCountry)">tous</a>)
-      </div>
-      <div class="col-md-12">
-        <div ng-repeat="(country, selected) in filterCountry">
-        	<input type="checkbox" ng-model="filterCountry[country]" /> <a ng-click="clickOnly(country, filterCountry);">{{country}}</a>
-        </div>
-      </div>
-      <div class="col-md-12 title">
-        Poids (<a ng-click="clickAll(filterWeight)">tous</a>)
-      </div>
-      <div class="col-md-12">
-        <div ng-repeat="(weight, selected) in filterWeight">
-          <input type="checkbox" ng-model="filterWeight[weight]" /> <a ng-click="clickOnly(weight, filterWeight);">{{weight}}</a>
-        </div>
-      </div>
-      <div class="col-md-12 title">
-        Magasins
-      </div>
-      <div class="col-md-12">
-        <div ng-repeat="store in stores">
-          <input type="checkbox" ng-model="filterStore[store.name]" /> {{store.name}}
-        </div>
-      </div> -->
       <div class="col-md-12 filter">
         <div class="inner-filter">
           <div class="title">
@@ -43,7 +16,7 @@
           <div class="title">
             Pays (<a ng-click="clickAll(filterCountry)">tous</a>)
           </div>
-          <div ng-repeat="(country, selected) in filterCountry">
+          <div ng-repeat="(country, selected) in filterCountry | orderBy:country">
             <input type="checkbox" ng-model="filterCountry[country]" /> <a ng-click="clickOnly(country, filterCountry);">{{country}}</a>
           </div>
         </div>
@@ -53,7 +26,7 @@
           <div class="title">
             Poids (<a ng-click="clickAll(filterWeight)">tous</a>)
           </div>
-          <div ng-repeat="(weight, selected) in filterWeight">
+          <div ng-repeat="(weight, selected) in filterWeight | orderBy:weight">
             <input type="checkbox" ng-model="filterWeight[weight]" /> <a ng-click="clickOnly(weight, filterWeight);">{{weight}}</a>
           </div>
         </div>
@@ -63,7 +36,7 @@
           <div class="title">
             Magasins (<a ng-click="clickAll(filterStore)">tous</a>)
           </div>
-          <div ng-repeat="store in stores">
+          <div ng-repeat="store in stores | orderBy:store.name">
             <input type="checkbox" ng-model="filterStore[store.name]" /> <a ng-click="clickOnly(store.name, filterStore);">{{store.name}}</a>
           </div>
         </div>
@@ -80,10 +53,22 @@
         </div>
       </div>
       <div class="col-md-4">
+      Dernière mise à jour : {{lastUpdate}}
       </div>
-      <div class="col-md-3">
-      </div>
-      <div class="col-md-3">
+      <div class="col-md-4">
+      <!-- Panier : {{getBasket().coins.length}} pièces ({{getBasket().total()}} €) -->
+      <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            Panier : {{getBasket().coins.length}} pièce(s), {{getBasket().total()}} € <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu" style="min-width: 210px;">
+            <li ng-repeat="bCoin in getBasket().coins">
+              <a ng-click="deleteFromBasket($index)" style="display: inline;padding: 2px;"><span class="glyphicon glyphicon-remove" style="color:red"></span></a> <span>{{bCoin.name}} : {{bCoin.price}} €</span>
+            </li>
+            <li class="divider"></li>
+            <li>Total : {{getBasket().total()}} €</li>
+          </ul>
+        </div>
       </div>
     </div>
 

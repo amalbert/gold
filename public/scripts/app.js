@@ -1,12 +1,12 @@
 'use strict';
 
 angular.module('Controllers', ['Services', 'Filters']);
-angular.module('Services', ['Filters']);
+angular.module('Services', ['Filters', 'LocalStorageModule']);
 angular.module('Directives', ['Filters']);
 angular.module('Filters', []);
 
 angular
-  .module('gold', [ 'ngAnimate', 'ngResource', 'ngRoute', 'Directives', 'Services', 'Controllers', 'Filters' ])
+  .module('gold', [ 'ngAnimate', 'ngResource', 'ngRoute', 'Directives', 'Services', 'Controllers', 'Filters', 'LocalStorageModule' ])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
@@ -28,7 +28,7 @@ angular
         templateUrl: 'views/coins/detail.html',
         controller: 'CoinsController'
       })
-      .when('/admin/stores/list', {
+      .when('/stores/list/:country', {
         templateUrl: 'views/stores/list.html',
         controller: 'StoresController'
       })
@@ -36,7 +36,7 @@ angular
         templateUrl: 'views/stores/detail.html',
         controller: 'StoresController'
       })
-      .when('/admin/stores/detail/:id', {
+      .when('/stores/detail/:id', {
         templateUrl: 'views/stores/detail.html',
         controller: 'StoresController'
       })

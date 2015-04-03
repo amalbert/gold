@@ -32,18 +32,19 @@
         <div class="header">
           <div class="container">
               <div class="row">
-                <div class="col-md-3 logo">
+                <div class="col-xs-3 logo">
                   <span class="color1">INVEST</span><span class="color2">-</span><span class="color3">OR</span><span class="color4">.io</span>
                 </div>
-                <div class="col-md-7">
+                <div class="col-xs-7">
                   <div class="nav">
                       <ul>
                         <li><a ng-href="/#/coins/list/Or">Pièces d'or</a></li>
                         <li><a ng-href="/#/coins/list/Argent">Pièces en argent</a></li>
+                        <li><a ng-href="/#/stores/list/all">Les magasins</a></li>
                       </ul>
                   </div>
                 </div>
-                <div class="col-md-2 bourse" ng-controller="BourseController">
+                <div class="col-xs-2 bourse" ng-controller="BourseController">
                   <!-- Dernière mise à jour des cours : {{bourse.lastUpdatedFormatted}}<br/> -->
                   Or : <span class="color1">{{bourse.gold.current}} €</span>  / oz<br/> Argent : <span class="color1">{{bourse.silver.current}} €</span> / oz
                 </div>
@@ -97,6 +98,7 @@
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/moment/min/moment.min.js"></script>
+    <script src="bower_components/angular-local-storage/dist/angular-local-storage.min.js"></script>
 
     <script src="scripts/app.js"></script>
     <script src="scripts/coins/coinsController.js"></script>
@@ -106,6 +108,8 @@
     <script src="scripts/stores/storesService.js"></script>
     <script src="scripts/bourse/bourseController.js"></script>
     <script src="scripts/bourse/bourseService.js"></script>
+    <script src="scripts/location/locationService.js"></script>
+    <script src="scripts/basket/basketService.js"></script>
 </body>
 </html>
 

@@ -39,6 +39,7 @@
 		<div class="row">
 			<div class="col-md-12 best-store">
 				<h3>Meilleur prix sur <a ng-href="{{getStore(bestStore.store).url}}/{{bestStore.coinUri}}" target="_blank">{{bestStore.store}}</a></h3>
+				<a ng-href="#/admin/coins/detail/{{coin._id}}">admin</a>
 			</div>
 			<div class="col-md-12 store-details" data-ng-repeat="price in coin.prices">
 				<h3>{{price.store}}</h3>
@@ -47,7 +48,10 @@
 					<tr><th>Année</th><th>Prix</th><th>Prime</th></tr>
 					<tr data-ng-repeat="year in price.years" ng-if="year.price != undefined" ng-class="{bestPrice:year.price == bestStore.price}">
 						<td>{{year.year != 0 ? year.year : 'indéfinie'}}</td>
-						<td><a ng-href="{{getStore(price.store).url}}/{{year.uri}}" target="_blank">{{year.price}} €</a></td>
+						<td>
+							<a ng-href="{{getStore(price.store).url}}/{{year.uri}}" target="_blank">{{year.price}} €</a> 
+							<a ng-click="addToBasket(coin, year.uri)">Ajouter au panier</a>
+						</td>
 						<td>{{getPrime(coin, year.price)}}%</td>
 					</tr>
 					</table>
